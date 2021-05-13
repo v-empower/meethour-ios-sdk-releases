@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.version          = 'VERSION'
   s.summary          = 'Meet Hour iOS SDK'
   s.description      = 'Meet Hour is 100% free video conference solution with End to End Encrypted and many other features such as lobby mode, Donor box & Click&Pledge Connect for fundraising, Video call recording, Youtube Live Stream etc. For more details visit www.meethour.io.'
-  s.homepage         = 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases'
+  s.homepage         = 'https://github.com/v-empower/meethour-ios-sdk-releases'
   s.license          = 'Meet Hour, LLC'
   s.authors          = 'Meet Hour, LLC'
-  s.source           = { :git => 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/v-empower/meethour-ios-sdk-releases', :tag => s.version }
 
   s.platform         = :ios, '12.0'
 
