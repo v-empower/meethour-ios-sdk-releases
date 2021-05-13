@@ -67,5 +67,5 @@ The API is documented [here](API.md).
 
 Please report all issues related to this SDK to the [Meet Hour]() repository.
 
-[CocoaPods]: https://cocoapods.org
-[Meet Hour]: https://github.com/v-empower/Meethour-Web-MobileApps
+[CocoaPods]: https://cocoapods.org/pods/MeetHourSDK
+[Meet Hour]: https://github.com/v-empower/meethour-ios-sdk-releases
