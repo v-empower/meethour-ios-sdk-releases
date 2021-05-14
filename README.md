@@ -22,7 +22,7 @@ do so, add the `MeetHourSDK` dependency to your existing `Podfile` or create
 a new one following this example:
 
 ```
-platform :ios, '11.0'
+platform :ios, '12.1'
 
 workspace 'MeetHourSDKTest.xcworkspace'
 
