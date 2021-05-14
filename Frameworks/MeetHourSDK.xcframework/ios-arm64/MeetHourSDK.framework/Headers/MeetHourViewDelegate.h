@@ -95,7 +95,7 @@
  *
  * The `data` dictionary contains `message`, `senderId` and  `isPrivate` keys.
  */
-- (void)chatMessaageReceived:(NSDictionary *)data;
+- (void)chatMessageReceived:(NSDictionary *)data;
 
 /**
  * Called when the chat dialog is displayed/hidden.
@@ -103,5 +103,12 @@
  * The `data` dictionary contains a `isOpen` key.
  */
 - (void)chatToggled:(NSDictionary *)data;
+
+/**
+ * Called when videoMuted state changed.
+ *
+ * The `data` dictionary contains a `muted` key with state of the videoMuted for the localParticipant.
+ */
+- (void)videoMutedChanged:(NSDictionary *)data;
 
 @end

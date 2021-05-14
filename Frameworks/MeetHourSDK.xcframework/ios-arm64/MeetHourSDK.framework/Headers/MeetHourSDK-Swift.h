@@ -213,8 +213,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class AVAudioSession;
 @class CXAction;
 
-SWIFT_PROTOCOL("_TtP11MeetHourSDK17JMCallKitListener_")
-@protocol JMCallKitListener <NSObject>
+SWIFT_PROTOCOL("_TtP11MeetHourSDK17MHCallKitListener_")
+@protocol MHCallKitListener <NSObject>
 @optional
 - (void)providerDidReset;
 - (void)performAnswerCallWithUUID:(NSUUID * _Nonnull)UUID;
@@ -228,8 +228,8 @@ SWIFT_PROTOCOL("_TtP11MeetHourSDK17JMCallKitListener_")
 
 @class CXTransaction;
 
-SWIFT_CLASS("_TtC11MeetHourSDK14JMCallKitProxy")
-@interface JMCallKitProxy : NSObject
+SWIFT_CLASS("_TtC11MeetHourSDK14MHCallKitProxy")
+@interface MHCallKitProxy : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Enables the proxy in between CallKit and the consumers of the SDK.
@@ -239,8 +239,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
 + (void)setEnabled:(BOOL)value;
 + (void)configureProviderWithLocalizedName:(NSString * _Nonnull)localizedName ringtoneSound:(NSString * _Nullable)ringtoneSound iconTemplateImageData:(NSData * _Nullable)iconTemplateImageData;
 + (BOOL)isProviderConfigured SWIFT_WARN_UNUSED_RESULT;
-+ (void)addListener:(id <JMCallKitListener> _Nonnull)listener;
-+ (void)removeListener:(id <JMCallKitListener> _Nonnull)listener;
++ (void)addListener:(id <MHCallKitListener> _Nonnull)listener;
++ (void)removeListener:(id <MHCallKitListener> _Nonnull)listener;
 + (BOOL)hasActiveCallForUUID:(NSString * _Nonnull)callUUID SWIFT_WARN_UNUSED_RESULT;
 + (void)reportNewIncomingCallWithUUID:(NSUUID * _Nonnull)UUID handle:(NSString * _Nullable)handle displayName:(NSString * _Nullable)displayName hasVideo:(BOOL)hasVideo completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 + (void)reportCallUpdateWith:(NSUUID * _Nonnull)UUID handle:(NSString * _Nullable)handle displayName:(NSString * _Nullable)displayName hasVideo:(BOOL)hasVideo;

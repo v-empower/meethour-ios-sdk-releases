@@ -63,7 +63,7 @@ extension CXCallController : MeetHourSDK.CXCallControllerProtocol {
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class JMCallKitProxy : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class MHCallKitProxy : ObjectiveC.NSObject {
   public static var callKitProvider: MeetHourSDK.CXProviderProtocol?
   public static var callKitCallController: MeetHourSDK.CXCallControllerProtocol?
   @objc public static var enabled: Swift.Bool {
@@ -72,8 +72,8 @@ extension CXCallController : MeetHourSDK.CXCallControllerProtocol {
   }
   @objc public static func configureProvider(localizedName: Swift.String, ringtoneSound: Swift.String?, iconTemplateImageData: Foundation.Data?)
   @objc public static func isProviderConfigured() -> Swift.Bool
-  @objc public static func addListener(_ listener: MeetHourSDK.JMCallKitListener)
-  @objc public static func removeListener(_ listener: MeetHourSDK.JMCallKitListener)
+  @objc public static func addListener(_ listener: MeetHourSDK.MHCallKitListener)
+  @objc public static func removeListener(_ listener: MeetHourSDK.MHCallKitListener)
   @objc public static func hasActiveCallForUUID(_ callUUID: Swift.String) -> Swift.Bool
   @objc public static func reportNewIncomingCall(UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool, completion: @escaping (Swift.Error?) -> Swift.Void)
   @objc public static func reportCallUpdate(with UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool)
@@ -83,7 +83,7 @@ extension CXCallController : MeetHourSDK.CXCallControllerProtocol {
   @objc public static func request(_ transaction: CallKit.CXTransaction, completion: @escaping (Swift.Error?) -> Swift.Void)
   @objc deinit
 }
-@objc public protocol JMCallKitListener : ObjectiveC.NSObjectProtocol {
+@objc public protocol MHCallKitListener : ObjectiveC.NSObjectProtocol {
   @objc optional func providerDidReset()
   @objc optional func performAnswerCall(UUID: Foundation.UUID)
   @objc optional func performEndCall(UUID: Foundation.UUID)

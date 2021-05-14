@@ -24,20 +24,16 @@ a new one following this example:
 ```
 platform :ios, '12.1'
 
-workspace 'MeetHourSDKTest.xcworkspace'
-
 target 'MeetHourSDKTest' do
-  project 'MeetHourSDKTest.xcodeproj'
+    pod 'MeetHourSDK', '~> 3.5.0'
 
-  pod 'MeetHourSDK'
-end
-
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['ENABLE_BITCODE'] = 'NO'
+    post_install do |installer|
+        installer.pods_project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['ENABLE_BITCODE'] = 'NO'
+            end
+        end
     end
-  end
 end
 ```
 
@@ -68,4 +64,4 @@ The API is documented [here](API.md).
 Please report all issues related to this SDK to the [Meet Hour]() repository.
 
 [CocoaPods]: https://cocoapods.org/pods/MeetHourSDK
-[Meet Hour]: https://github.com/v-empower/meethour-ios-sdk-releases
+[DownloadSDK]: https://github.com/v-empower/MeetHour-MobileSDKs

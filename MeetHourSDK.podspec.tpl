@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/v-empower/meethour-ios-sdk-releases'
   s.license          = 'Meet Hour, LLC'
   s.authors          = 'Meet Hour, LLC'
-  s.source           = { :git => 'https://github.com/v-empower/meethour-ios-sdk-releases', :tag => s.version }
+  s.source           = { :git => 'https://github.com/v-empower/meethour-ios-sdk-releases.git', :tag => s.version }
 
   s.platform         = :ios, '12.0'
 
