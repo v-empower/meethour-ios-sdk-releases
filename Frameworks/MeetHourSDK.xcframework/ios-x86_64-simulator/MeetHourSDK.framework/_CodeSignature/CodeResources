@@ -412,31 +412,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e8enCafAYrA7dxfSvO5AglXipeU=
-		</data>
-		<key>Modules/MeetHourSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		tKamYFtWkxf7W7j19wOfn4pCAqk=
-		</data>
-		<key>Modules/MeetHourSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		tKamYFtWkxf7W7j19wOfn4pCAqk=
+		ZV7mQRMfEn0m8MfZDZIXQ4pyRA8=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		qHBQuElv9OqBst583DchjL8BCNE=
 		</data>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Fw10pjt1TrqfJxYifJV4E5F7oNA=
+		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/s673EnZSP9s8AQiDCBwdDkVBvU=
+		DpLF4eUj2TfAjqS59IY0Q5KVL2M=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		qHBQuElv9OqBst583DchjL8BCNE=
 		</data>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		Fw10pjt1TrqfJxYifJV4E5F7oNA=
+		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		/s673EnZSP9s8AQiDCBwdDkVBvU=
+		DpLF4eUj2TfAjqS59IY0Q5KVL2M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -832,7 +832,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		R5/f5MpdiWsGXwDrYE4U1FOp9qg=
+		CmFmzx3WMK+SE1ZNdxs8hhZD0jc=
 		</data>
 		<key>outgoingRinging.wav</key>
 		<data>
@@ -1311,20 +1311,6 @@
 			8a9cQj1VWGte3JKZrSIQ62QZvHWzV1Eah5jp8cH89vM=
 			</data>
 		</dict>
-		<key>Modules/MeetHourSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LQp45xlzl6ByTW1790L6Y3U4zhYs1EyjOiNThEwjOus=
-			</data>
-		</dict>
-		<key>Modules/MeetHourSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LQp45xlzl6ByTW1790L6Y3U4zhYs1EyjOiNThEwjOus=
-			</data>
-		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -1332,11 +1318,18 @@
 			fnSHwzjPDSA3pgVZtJMmMf1zsknwKbf/josdIrRidIQ=
 			</data>
 		</dict>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lLxUn+JCfoY7coQ61KstMS6dArQUgt+ISjepkaZXHA8=
+			</data>
+		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			10jdpD/kaoQgx/3FB/KIou4yxOuoWXcQvCDFXMMVXfk=
+			EwvatO1iz37vdEkUEym8+VXocgsPRbCC9s6csQwA6YE=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -1346,11 +1339,18 @@
 			fnSHwzjPDSA3pgVZtJMmMf1zsknwKbf/josdIrRidIQ=
 			</data>
 		</dict>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lLxUn+JCfoY7coQ61KstMS6dArQUgt+ISjepkaZXHA8=
+			</data>
+		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			10jdpD/kaoQgx/3FB/KIou4yxOuoWXcQvCDFXMMVXfk=
+			EwvatO1iz37vdEkUEym8+VXocgsPRbCC9s6csQwA6YE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2043,7 +2043,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wTjCQgAK+7GVFZx41OBsl64PRowLu99XVTy615ZydQU=
+			fzV25mrNFOXhwkKUaFLMpn123febqfSDxQaoZN+psEE=
 			</data>
 		</dict>
 		<key>outgoingRinging.wav</key>
