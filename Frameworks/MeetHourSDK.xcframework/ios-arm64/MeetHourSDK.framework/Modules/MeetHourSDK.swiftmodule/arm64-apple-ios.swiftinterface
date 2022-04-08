@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MeetHourSDK
 import AVKit
 import CallKit
@@ -7,6 +7,7 @@ import Foundation
 @_exported import MeetHourSDK
 import Swift
 import UIKit
+import _Concurrency
 public typealias AnimationCompletion = (Swift.Bool) -> Swift.Void
 public protocol PiPViewCoordinatorDelegate : AnyObject {
   func exitPictureInPicture()
@@ -56,9 +57,9 @@ public protocol CXCallControllerProtocol : AnyObject {
   var calls: [CallKit.CXCall] { get }
   func request(_ transaction: CallKit.CXTransaction, completion: @escaping (Swift.Error?) -> Swift.Void)
 }
-extension CXProvider : MeetHourSDK.CXProviderProtocol {
+extension CallKit.CXProvider : MeetHourSDK.CXProviderProtocol {
 }
-extension CXCallController : MeetHourSDK.CXCallControllerProtocol {
+extension CallKit.CXCallController : MeetHourSDK.CXCallControllerProtocol {
   public var calls: [CallKit.CXCall] {
     get
   }

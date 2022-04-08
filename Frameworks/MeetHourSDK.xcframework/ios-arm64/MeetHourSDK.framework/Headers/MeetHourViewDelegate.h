@@ -32,8 +32,8 @@
  * The `data` dictionary contains an `error` key with the error and a `url` key
  * with the conference URL. If the conference finished gracefully no `error`
  * key will be present. The possible values for "error" are described here:
- * https://github.com/jitsi/lib-jitsi-meet/blob/master/JitsiConnectionErrors.js
- * https://github.com/jitsi/lib-jitsi-meet/blob/master/JitsiConferenceErrors.js
+ * https://github.com/v-empower/Meethour-Web-MobileApps/tree/master/lib-meet-hour/MHConnectionErrors.js
+ * https://github.com/v-empower/Meethour-Web-MobileApps/tree/master/lib-meet-hour/MHConferenceErrors.js
  */
 - (void)conferenceTerminated:(NSDictionary *)data;
 
