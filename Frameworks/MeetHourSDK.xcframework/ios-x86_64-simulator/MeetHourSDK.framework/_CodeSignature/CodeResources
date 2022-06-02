@@ -445,7 +445,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HzpfmO5AGkRjBHrpFOIOXr5MkYc=
+		FshakEaynUCAyn9J3Ay14lcowjM=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -486,6 +486,10 @@
 		<key>assets/images/loading2.gif</key>
 		<data>
 		cxfVr6eteoxUDzaj65vBzWKgVOQ=
+		</data>
+		<key>assets/images/logo.png</key>
+		<data>
+		gbOAZOV3QfNPuJ/OjnS02Mxa3v8=
 		</data>
 		<key>assets/images/privacy.png</key>
 		<data>
@@ -529,7 +533,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		wd1x0RSGtPT2Hn5veVxRi0xSfKM=
+		W4mZCp5SwmxBNFwtB2feAs8mGz0=
 		</data>
 		<key>outgoingRinging.wav</key>
 		<data>
@@ -1129,6 +1133,13 @@
 			qvSHFkfR+2AhFImekzeaY3mLHEq5J5d0q/JEEg/PMvc=
 			</data>
 		</dict>
+		<key>assets/images/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KKQf/AhxzTH+K503IFzI/iSh46JQahRTmIjFyX0QFKM=
+			</data>
+		</dict>
 		<key>assets/images/privacy.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1203,7 +1214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kFqZ4hYa4J6vAP1NZC3xY7NYl+LcH8th/7g+ILfAAeU=
+			hXl27D5Hj3lPtRWmBhksnqTcisEUr1EGSxXoIAz2B0Y=
 			</data>
 		</dict>
 		<key>outgoingRinging.wav</key>
