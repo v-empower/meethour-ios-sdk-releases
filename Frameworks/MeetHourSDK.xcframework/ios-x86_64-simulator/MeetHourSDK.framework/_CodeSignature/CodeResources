@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		01IZaR4+vbXWAZcpEDLLj1ffm4c=
+		KnMKDy/N9gBP4vlI5mBqL9zMLcQ=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		0dTxrNeVaJdSjCFDI9jwFWgc8Xg=
+		5+/4OXo5a5nfjMqkYKtnbNCYADE=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		VkmngDsusxUcFVIDcUKd9/83d+Y=
+		hqEuE5KlL8jz0AksjrEwPDtSzW8=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -445,7 +445,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ExQ6BhJf4kyJfG/nLBTpfB8GR7I=
+		ddAt9OOUxDEZX8XPqbz9b2uxZik=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -457,7 +457,7 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+NHOUg9yEGXrzLYAynouKtgmmx8=
+		o2kj9steDT23pjI2+soK1g/vhIk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -499,6 +499,22 @@
 		<data>
 		pip+rkaHtqQkhGt8piR3iWjZ724=
 		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
+		<data>
+		/9xO1HOyvigG6Z0PaA0dLp/gDlY=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
+		<data>
+		keLOi1inJdXs0IRSKnXqyhW57Aw=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
+		<data>
+		rSvG8m4uPMSItIcsIF+N2tDJD8U=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
+		<data>
+		8kFG8Vv7Hfrw4yVcFrhUhbHieBA=
+		</data>
 		<key>image-resize@2x.png</key>
 		<data>
 		fpJVwJDMfzGKpCkKXn6v05rCfqY=
@@ -533,7 +549,11 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		SbOzbF3ZPacGTXBPrKfzRo0tuOo=
+		tMZFdmpU0kOGt0GcCCdJXfNS2pI=
+		</data>
+		<key>meet-hour-waiting.mp3</key>
+		<data>
+		CW3ovlaDmPEkCmt2jRevQAYrhsE=
 		</data>
 		<key>outgoingRinging.wav</key>
 		<data>
@@ -562,14 +582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wrN0ZPIxBiymL8LPSPP8gpY2k9irsXxAlEFCYGDYMbk=
+			R3H+lGEi8u6llwkm7UlWNJfYws7p4hIUyKzvJuKfEJQ=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qfSNvfeID0ZQsHNWBRIn8cvR2quX2Mz5hUh9f4sdbiY=
+			OjBZ6hve+a+kag+GD+XpEQT6oC89meDR8yy74nI7v4Y=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -583,7 +603,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gur4ajmJygwraWnlWeZufm4fPJ1ivvd3sGPKSNj+I68=
+			A1+48t/tNL9GxFlPkq9MUGJzIjxZ37wXK0VWUFfSm08=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -1081,7 +1101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ButrOprIAcQ3JFag2kJuoWxHv26II972P7yX2nXOqsE=
+			s5hzO/3VdebQqUaU8HnJojdx1k/tU5kOrJLPKRVG6Aw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1154,6 +1174,34 @@
 			50af8QB2UnI9kKdsH+qgRRvbxHJqGeJXes/6w5MnOig=
 			</data>
 		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LJXowmdeeZM1/QBGuwfb2gbLfs/1HtN5IsYwnWGcxNM=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LN/rjlzN55dvcBL7jM5zryIpAp7iHU8VCf7RFIccbNg=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K3RDqaWOksoRpXW9wRWYYVpX3eMFzYznDWAmBrMCzZg=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pd0Hc+0n4j0leJ8wFzGzrEVa2L5aonoKG4OPicbSciU=
+			</data>
+		</dict>
 		<key>image-resize@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1214,7 +1262,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0lq20gQqV0IQRk/PfUQUfguOTJKvOFpvyfCE7NM/4r8=
+			X+qToYFCgGUz72h92C2Ix9WlgYTuCnd/SizAx5hrOYs=
+			</data>
+		</dict>
+		<key>meet-hour-waiting.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2QHdTaVCkhGBbN1a7JhcfchbOQA0WVPhI0MbQd3aZGY=
 			</data>
 		</dict>
 		<key>outgoingRinging.wav</key>
