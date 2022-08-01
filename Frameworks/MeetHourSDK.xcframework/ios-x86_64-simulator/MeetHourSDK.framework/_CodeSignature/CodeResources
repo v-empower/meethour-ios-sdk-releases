@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		KnMKDy/N9gBP4vlI5mBqL9zMLcQ=
+		AtszrPoAuUXQhyBdvFDPgIiT2kg=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		5+/4OXo5a5nfjMqkYKtnbNCYADE=
+		o3vRXWChboDBVOM7R3J1aPBxH2k=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		hqEuE5KlL8jz0AksjrEwPDtSzW8=
+		4JVT/8f8q0KPoK2k4g6PAXfqiGo=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -425,7 +425,7 @@
 		</data>
 		<key>Headers/MeetHourSDK-Swift.h</key>
 		<data>
-		Lhu0uZtX6beuYyGJ9RvgwGVi+44=
+		8+1rraWJqXWzpb4MK0uOwbj/AcE=
 		</data>
 		<key>Headers/MeetHourSDK.h</key>
 		<data>
@@ -445,19 +445,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UTSAFkIGEuTXlGeogv7QPDfnt00=
+		xN7DHBAmhryz578vpDxq6hSV/XI=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GagELzfAO6G7H4kpFBjxoOA4SY4=
+		vb9L+jzwD/0IoBEO/TEsfOZvj78=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5JJche3rAXsO3fFiVug6ka3lvaQ=
+		fRUaug3/340ks0YU62mFHTgzQfI=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o2kj9steDT23pjI2+soK1g/vhIk=
+		5XPogX2GYtiuwfyd0WdCMjfGAsY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -547,13 +547,13 @@
 		<data>
 		M7fJ4ZuecAhbul19/akt2eOMhTw=
 		</data>
-		<key>main.jsbundle</key>
-		<data>
-		6aaMYsbwlPYLygUiMbRekwQAcFo=
-		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
 		CW3ovlaDmPEkCmt2jRevQAYrhsE=
+		</data>
+		<key>meethour.jsbundle</key>
+		<data>
+		6aaMYsbwlPYLygUiMbRekwQAcFo=
 		</data>
 		<key>outgoingRinging.wav</key>
 		<data>
@@ -582,14 +582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R3H+lGEi8u6llwkm7UlWNJfYws7p4hIUyKzvJuKfEJQ=
+			OavfQBDB+0+1TW/lxW+IOAh+lpwpvX6QauhwHSHfdcM=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjBZ6hve+a+kag+GD+XpEQT6oC89meDR8yy74nI7v4Y=
+			E0BHpBstYp3Du/g2ATBhcs/LodXqRGef/DXZ7vrfSJ8=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -603,7 +603,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1+48t/tNL9GxFlPkq9MUGJzIjxZ37wXK0VWUFfSm08=
+			XiA0/rIMQlKZhQrL4xkfX2JM9lgoa6BU2wQ5he5s05I=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -1052,7 +1052,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fWr7NEcah4CoZePrb62mbZ+ykp6EbEaEdutk2ChIHUI=
+			Kb+MRhFe6jkawXaqs0In1s6G+9QsGnktqOyiSNaTjK0=
 			</data>
 		</dict>
 		<key>Headers/MeetHourSDK.h</key>
@@ -1087,21 +1087,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rfCrbYIEFJ0abvUfkptZ2ZvnA4Hye57rz5P7+UEBvdo=
+			/MRrYoqFgCcXdsXuvSc0I7oIxzQF7O07gfwU1pTGWWA=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rj/OMk7CPSfJUbHcoNJ0EsTa5/YC71i90g3vYcKe5v4=
+			Gu50SVuRXbpm76WojFUe58Q2DOfVx4CFLk02G/a7Lh8=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s5hzO/3VdebQqUaU8HnJojdx1k/tU5kOrJLPKRVG6Aw=
+			EDmuZWqbpOv4nDqCbPjVAcGJpsgd/TVi8osnmzfKRtI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1258,18 +1258,18 @@
 			c8Cj4FLQOQp5B1Spc0GJS//jj/mDjNGlGtyp7CusDJY=
 			</data>
 		</dict>
-		<key>main.jsbundle</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			24ej4KEGzwcAmXocnXB32/BM6SFDg0e6yBw6rRd6h4w=
-			</data>
-		</dict>
 		<key>meet-hour-waiting.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			2QHdTaVCkhGBbN1a7JhcfchbOQA0WVPhI0MbQd3aZGY=
+			</data>
+		</dict>
+		<key>meethour.jsbundle</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			24ej4KEGzwcAmXocnXB32/BM6SFDg0e6yBw6rRd6h4w=
 			</data>
 		</dict>
 		<key>outgoingRinging.wav</key>
