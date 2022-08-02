@@ -547,13 +547,13 @@
 		<data>
 		M7fJ4ZuecAhbul19/akt2eOMhTw=
 		</data>
+		<key>main.jsbundle</key>
+		<data>
+		6aaMYsbwlPYLygUiMbRekwQAcFo=
+		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
 		CW3ovlaDmPEkCmt2jRevQAYrhsE=
-		</data>
-		<key>meethour.jsbundle</key>
-		<data>
-		6aaMYsbwlPYLygUiMbRekwQAcFo=
 		</data>
 		<key>outgoingRinging.wav</key>
 		<data>
@@ -1258,18 +1258,18 @@
 			c8Cj4FLQOQp5B1Spc0GJS//jj/mDjNGlGtyp7CusDJY=
 			</data>
 		</dict>
+		<key>main.jsbundle</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			24ej4KEGzwcAmXocnXB32/BM6SFDg0e6yBw6rRd6h4w=
+			</data>
+		</dict>
 		<key>meet-hour-waiting.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			2QHdTaVCkhGBbN1a7JhcfchbOQA0WVPhI0MbQd3aZGY=
-			</data>
-		</dict>
-		<key>meethour.jsbundle</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			24ej4KEGzwcAmXocnXB32/BM6SFDg0e6yBw6rRd6h4w=
 			</data>
 		</dict>
 		<key>outgoingRinging.wav</key>
