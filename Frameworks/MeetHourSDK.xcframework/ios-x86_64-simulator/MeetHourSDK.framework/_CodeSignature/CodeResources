@@ -445,7 +445,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xN7DHBAmhryz578vpDxq6hSV/XI=
+		IDhiI+pbR0h8Asw6TXoRghl24Hc=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -457,7 +457,7 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5XPogX2GYtiuwfyd0WdCMjfGAsY=
+		SrA1LkQbMrNVB8H/XJSOZbseBak=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -499,22 +499,6 @@
 		<data>
 		pip+rkaHtqQkhGt8piR3iWjZ724=
 		</data>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
-		<data>
-		/9xO1HOyvigG6Z0PaA0dLp/gDlY=
-		</data>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
-		<data>
-		keLOi1inJdXs0IRSKnXqyhW57Aw=
-		</data>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
-		<data>
-		rSvG8m4uPMSItIcsIF+N2tDJD8U=
-		</data>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
-		<data>
-		8kFG8Vv7Hfrw4yVcFrhUhbHieBA=
-		</data>
 		<key>image-resize@2x.png</key>
 		<data>
 		fpJVwJDMfzGKpCkKXn6v05rCfqY=
@@ -549,7 +533,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		6aaMYsbwlPYLygUiMbRekwQAcFo=
+		kpoClMPQedrxwUAib+yfxVs9Vx0=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -1101,7 +1085,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDmuZWqbpOv4nDqCbPjVAcGJpsgd/TVi8osnmzfKRtI=
+			kZAm/xsQZwXi0dIt82CWrZCqZyvr+FLY5vCGMXhkzb0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1174,34 +1158,6 @@
 			50af8QB2UnI9kKdsH+qgRRvbxHJqGeJXes/6w5MnOig=
 			</data>
 		</dict>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LJXowmdeeZM1/QBGuwfb2gbLfs/1HtN5IsYwnWGcxNM=
-			</data>
-		</dict>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LN/rjlzN55dvcBL7jM5zryIpAp7iHU8VCf7RFIccbNg=
-			</data>
-		</dict>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K3RDqaWOksoRpXW9wRWYYVpX3eMFzYznDWAmBrMCzZg=
-			</data>
-		</dict>
-		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Pd0Hc+0n4j0leJ8wFzGzrEVa2L5aonoKG4OPicbSciU=
-			</data>
-		</dict>
 		<key>image-resize@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1262,7 +1218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			24ej4KEGzwcAmXocnXB32/BM6SFDg0e6yBw6rRd6h4w=
+			QteUYqySgoiS1oNOJrn/9IFd8ZuCXrLOGiaFgC0jNyE=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>
