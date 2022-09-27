@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		AtszrPoAuUXQhyBdvFDPgIiT2kg=
+		8SV3E4e3rXkFQgka3I15/MAWrwY=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		o3vRXWChboDBVOM7R3J1aPBxH2k=
+		g4MUD4rgqGbsu5DsKrZ/4GiDoyg=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		4JVT/8f8q0KPoK2k4g6PAXfqiGo=
+		n8QbJyjnOVcH52x2W9lMUcODbJw=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -445,7 +445,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9dXbwYjbGb5HHlMfkAWeFIr+Dnc=
+		pHfjYNTvNUOn4pIx51PqLliL24c=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -457,7 +457,7 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SrA1LkQbMrNVB8H/XJSOZbseBak=
+		cn+ENYfYw+FTAPNBzs9CNIcY/DY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -533,7 +533,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		rAzcHbuRyaNC5bbpDtN7eSo+CiM=
+		CQj56xKFC9/84QFOvZsA+DGB9FA=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -566,14 +566,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OavfQBDB+0+1TW/lxW+IOAh+lpwpvX6QauhwHSHfdcM=
+			uaO8gzylQoCuPgjKew+2k3jTD8f18oMtIS+TuLztzbA=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E0BHpBstYp3Du/g2ATBhcs/LodXqRGef/DXZ7vrfSJ8=
+			3oRjpnpxKxCXPTeg3f9CUiQsbI//mdk8rxAeyEPwW5o=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -587,7 +587,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XiA0/rIMQlKZhQrL4xkfX2JM9lgoa6BU2wQ5he5s05I=
+			jfwrExZTYpHltflq+0AvYfDjdDKBAettuG/1YxCUVnc=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -1085,7 +1085,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kZAm/xsQZwXi0dIt82CWrZCqZyvr+FLY5vCGMXhkzb0=
+			9xiIT9Uf/WRehJXYc/ilwWbw2uBHL5TtqL1pkUZqnEM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1218,7 +1218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L61AOQ2urpiGpQTyKzC3JEf4cnzNNWVJavtz8TRNyJU=
+			ttSi3a/99qZ20sS6z0zhQ76Ka4eacbDP41xJDJnYezk=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>
