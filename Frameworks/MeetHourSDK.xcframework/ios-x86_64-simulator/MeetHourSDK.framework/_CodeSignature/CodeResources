@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		8SV3E4e3rXkFQgka3I15/MAWrwY=
+		+9Bv8bWEBSAY99pYbf+BXaAzHFE=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		g4MUD4rgqGbsu5DsKrZ/4GiDoyg=
+		A5qw/NVtONjo6VtE0trj+7nRfaI=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		n8QbJyjnOVcH52x2W9lMUcODbJw=
+		m8uH/s6c05/GHUfhmmvE8o1BxZA=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -425,7 +425,7 @@
 		</data>
 		<key>Headers/MeetHourSDK-Swift.h</key>
 		<data>
-		8+1rraWJqXWzpb4MK0uOwbj/AcE=
+		CApNCLYX058PbhqoGlb6oDI0qoE=
 		</data>
 		<key>Headers/MeetHourSDK.h</key>
 		<data>
@@ -445,23 +445,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eEtacevsRH2IqQvtf6rCGRdtAaw=
+		fJa2iIN9BUccPOPzRZcneL7h3i0=
+		</data>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		/yseO8g0isF3xCQ4jmUxEPOIfss=
+		</data>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		a0H4rrrOQ7Df8hPhsBgsdG/XSHo=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vb9L+jzwD/0IoBEO/TEsfOZvj78=
+		jJPd3CYxGxxr81JbJxtJ+qREHKw=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fRUaug3/340ks0YU62mFHTgzQfI=
+		a0H4rrrOQ7Df8hPhsBgsdG/XSHo=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cn+ENYfYw+FTAPNBzs9CNIcY/DY=
+		SeDpsuePbW+4zocVnqamNy+Y0nU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		zhlzFlymiMhuq2kVhJgwHKnw+1U=
+		zcWHjAIgZelLsZ2hk8i7pJAsQw8=
 		</data>
 		<key>assets/images/avatar.png</key>
 		<data>
@@ -533,7 +541,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		BCY7B02lf34sCDxaqezNa2fuYXY=
+		4/KsNZkFiiXnzHLJyePayMXCw70=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -566,14 +574,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaO8gzylQoCuPgjKew+2k3jTD8f18oMtIS+TuLztzbA=
+			/qynM7jrOoLBpA+O6OmkmklIhAjcVdYkmODPEvUlkQE=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3oRjpnpxKxCXPTeg3f9CUiQsbI//mdk8rxAeyEPwW5o=
+			+KyCVtT5voNOKw1mOU0JnWxJkdSO2Ww8Qsb7G8GU8w4=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -587,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jfwrExZTYpHltflq+0AvYfDjdDKBAettuG/1YxCUVnc=
+			zXYk5QMkjfs1gkrJ1mVza3aupi/1OA2G8eVm8RJB2cY=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -1036,7 +1044,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kb+MRhFe6jkawXaqs0In1s6G+9QsGnktqOyiSNaTjK0=
+			9WxEXF5Y5hZDv8g3gWT99R6mFGkCXfbIRhE7P5CxetQ=
 			</data>
 		</dict>
 		<key>Headers/MeetHourSDK.h</key>
@@ -1067,32 +1075,46 @@
 			BTMKygZNnSki1VOJLl131/yt/HqAkehzG35yLh6kakk=
 			</data>
 		</dict>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vjk/otTMETx8vyoTCJFPAjVZLTOmoR99/kxNwLKKX9A=
+			</data>
+		</dict>
+		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ahk84uvIlFjQb2lxhIN9FsZwstJ8+rf0kTmKkuCzZ94=
+			</data>
+		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/MRrYoqFgCcXdsXuvSc0I7oIxzQF7O07gfwU1pTGWWA=
+			LX0SHxXpVWE1VhXc3VqbsDJkf/8TRcgeSH8BTOkFgfE=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gu50SVuRXbpm76WojFUe58Q2DOfVx4CFLk02G/a7Lh8=
+			ahk84uvIlFjQb2lxhIN9FsZwstJ8+rf0kTmKkuCzZ94=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9xiIT9Uf/WRehJXYc/ilwWbw2uBHL5TtqL1pkUZqnEM=
+			zpgfJMbKcexC4BGrgPTZSp619bK5I2rShIU++ODnmxU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d7j6MTFAW7lG6NPMKxdwCgC972i+Nt70Z6+pUsRtexM=
+			GVipobh44k1ycpCsjH6xROAyPOF7Oijz8PygciLpyXY=
 			</data>
 		</dict>
 		<key>assets/images/avatar.png</key>
@@ -1218,7 +1240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DI93nK5mX0gk4ehOEQJGTsxyD/OqAviTf9OLfymKqsA=
+			Vzk4loD66voE2o9O4+piP0Ei0ES0FcZIv0wbQYp2jxY=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>

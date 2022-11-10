@@ -6,6 +6,6 @@ framework module MeetHourSDK {
 }
 
 module MeetHourSDK.Swift {
-    header "MeetHourSDK-Swift.h"
-    requires objc
+  header "MeetHourSDK-Swift.h"
+  requires objc
 }
