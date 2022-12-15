@@ -39,6 +39,11 @@
 @property (nonatomic, copy, nullable) NSString *token;
 
 /**
+ * PCode value used for passing password of conference dynamically.
+ */
+@property (nonatomic, copy, nullable) NSString *pcode;
+
+/**
  * Color scheme override, see:
  * https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/color-scheme/defaultScheme.js
  */
@@ -90,6 +95,7 @@
 @property (nonatomic, copy, nullable, readonly) NSString *room;
 @property (nonatomic, copy, nullable, readonly) NSString *subject;
 @property (nonatomic, copy, nullable, readonly) NSString *token;
+@property (nonatomic, copy, nullable, readonly) NSString *pcode;
 
 @property (nonatomic, copy, nullable) NSDictionary *colorScheme;
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
