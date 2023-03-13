@@ -62,6 +62,16 @@
 @property (nonatomic) BOOL audioMuted;
 @property (nonatomic) BOOL videoMuted;
 
+/*
+* To Skip the Prejoin page in Mobile. Set to false if you want to skip the prejoin.
+*/
+@property (nonatomic) BOOL prejoinPageEnabled;
+
+/*
+* To disable Invite Functions in Mobile. Set to true if you want to disable the invite function.
+*/
+@property (nonatomic) BOOL disableInviteFunctions;
+
 /**
  * Set to YES to enable the welcome page. Typically SDK users won't need this enabled
  * since the host application decides which meeting to join.
@@ -103,6 +113,10 @@
 @property (nonatomic, readonly) BOOL audioOnly;
 @property (nonatomic, readonly) BOOL audioMuted;
 @property (nonatomic, readonly) BOOL videoMuted;
+
+@property (nonatomic, readonly) BOOL prejoinPageEnabled;
+
+@property (nonatomic, readonly) BOOL disableInviteFunctions;
 
 @property (nonatomic, readonly) BOOL welcomePageEnabled;
 
