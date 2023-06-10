@@ -445,7 +445,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f36fdwtLG4U3GOmQaDOA86L/kn8=
+		HGqHWbjEZQQevh/nhJ8RO/N+V74=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -473,39 +473,39 @@
 		</data>
 		<key>assets/images/avatar.png</key>
 		<data>
-		QsFt583jiLwp+v9FUtGo1Zm+EuY=
+		SGvGLtnJSfwj7ao05qCDagZ9+zg=
 		</data>
 		<key>assets/images/btn_google_signin_dark_normal.png</key>
 		<data>
-		vDLJVTKYDrduPRKle4QHleywrhY=
+		3rpCtCvcclx1PCSTsdYwxieThYk=
 		</data>
 		<key>assets/images/dropboxLogo_square.png</key>
 		<data>
-		963TSklylFlSHuQZSvBcFw8eDEg=
+		CpA6KqkYDFKrAZWsyx7YlMrKAeg=
 		</data>
 		<key>assets/images/icon-users.png</key>
 		<data>
-		i5KKHxhNhQ39jzaLKQTpiyBHp48=
+		CyLXUKX959NDp2gWDR8QqJ65wt0=
 		</data>
 		<key>assets/images/jitsiLogo_square.png</key>
 		<data>
-		gbOAZOV3QfNPuJ/OjnS02Mxa3v8=
+		FrjzzSZ2xQ20v80htmgemZ87amI=
 		</data>
 		<key>assets/images/loading2.gif</key>
 		<data>
-		cxfVr6eteoxUDzaj65vBzWKgVOQ=
+		Qo9fl2x7aJotIriN3Sww10B8XYA=
 		</data>
 		<key>assets/images/logo.png</key>
 		<data>
-		gbOAZOV3QfNPuJ/OjnS02Mxa3v8=
+		FrjzzSZ2xQ20v80htmgemZ87amI=
 		</data>
 		<key>assets/images/privacy.png</key>
 		<data>
-		UMFqHr8kq92PItWvEMteNBcrZKM=
+		eePUw1+UeL1R1bPtRDKEa+ldnv4=
 		</data>
 		<key>assets/images/watermark.png</key>
 		<data>
-		pip+rkaHtqQkhGt8piR3iWjZ724=
+		bkrx0+YWV9HwHLWnGpquKskjHwI=
 		</data>
 		<key>image-resize@2x.png</key>
 		<data>
@@ -541,7 +541,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		1ic8OoNRpWNHW8ynZ78ahFr3pPg=
+		+lz+HU6uI5iylLkapGEjpYwQrwI=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -1121,63 +1121,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KQenLeiIDdEMjFLpMcfvnyKSJooCsqFhGczlDUmwrrQ=
+			cp4O5BjogRzrnD4FoFk0J6fiIC87fhSF7Geszbaeyu0=
 			</data>
 		</dict>
 		<key>assets/images/btn_google_signin_dark_normal.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Q+a7AKeU9OvJLLc3xnL+8q0ax8aZxHGFivTsZL/y0I=
+			UBPHZJx1ZtvQUmCenwE+qGsydWR/FhB84X5G82tTSJw=
 			</data>
 		</dict>
 		<key>assets/images/dropboxLogo_square.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ddO0dckyW06cKOo1+01VeakgleVraFrRv3dbalArIFQ=
+			VsINvRolVEeB8+N71jYjn6qFWFoel1j36f8FYN//W40=
 			</data>
 		</dict>
 		<key>assets/images/icon-users.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u+XQsDMSOwXb8FGalnlx4IUbKhloeln1bNi6KIkrMmA=
+			S2cpA02WdwPwBUujLo3o+CbLgnZR7CgGI8+5gyCFkxg=
 			</data>
 		</dict>
 		<key>assets/images/jitsiLogo_square.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKQf/AhxzTH+K503IFzI/iSh46JQahRTmIjFyX0QFKM=
+			5wnsqUUrt8SEXwxztDi3Lxm/PBDOIBLQkRLaV8FvFCs=
 			</data>
 		</dict>
 		<key>assets/images/loading2.gif</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvSHFkfR+2AhFImekzeaY3mLHEq5J5d0q/JEEg/PMvc=
+			oJIkwpQcftKY7n82qZlu4Nqe1JXF1cPtZ3b2coLv8WE=
 			</data>
 		</dict>
 		<key>assets/images/logo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKQf/AhxzTH+K503IFzI/iSh46JQahRTmIjFyX0QFKM=
+			5wnsqUUrt8SEXwxztDi3Lxm/PBDOIBLQkRLaV8FvFCs=
 			</data>
 		</dict>
 		<key>assets/images/privacy.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3n/AwI025IlJUo4/OqcY2kl1AysahgLJcBxpSjerxPc=
+			ueEqbdQSiMd4l6eDuVkkhT+flfgC3YQYTE2UzaKzbwI=
 			</data>
 		</dict>
 		<key>assets/images/watermark.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			50af8QB2UnI9kKdsH+qgRRvbxHJqGeJXes/6w5MnOig=
+			XK/8jMqKVTUY+PZvSdxKDaYwT4MGO5yXZ75aAtLUqAA=
 			</data>
 		</dict>
 		<key>image-resize@2x.png</key>
@@ -1240,7 +1240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rZ8wQE2vHbHjziXHJwAKgLT4hg3JNFlaRzglbcPBWY4=
+			nAoEfSc2bjrxCLGg4qtz9RInNGdl6oiUqSddSwoSOpE=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>
