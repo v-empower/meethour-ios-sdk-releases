@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MeetHourSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -10,6 +10,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public typealias AnimationCompletion = (Swift.Bool) -> Swift.Void
 public protocol PiPViewCoordinatorDelegate : AnyObject {
   func exitPictureInPicture()
@@ -33,7 +34,7 @@ public class PiPViewCoordinator {
   public var initialPositionInSuperview: MeetHourSDK.PiPViewCoordinator.Position
   @available(*, deprecated, message: "The PiP window size is now fixed to 150px.")
   public var c: CoreFoundation.CGFloat
-  weak public var delegate: MeetHourSDK.PiPViewCoordinatorDelegate?
+  weak public var delegate: (any MeetHourSDK.PiPViewCoordinatorDelegate)?
   public init(withView view: UIKit.UIView)
   public func configureAsStickyView(withParentView parentView: UIKit.UIView? = nil)
   public func show(completion: MeetHourSDK.AnimationCompletion? = nil)
@@ -47,8 +48,8 @@ public class PiPViewCoordinator {
 }
 public protocol CXProviderProtocol : AnyObject {
   var configuration: CallKit.CXProviderConfiguration { get set }
-  func setDelegate(_ delegate: CallKit.CXProviderDelegate?, queue: Dispatch.DispatchQueue?)
-  func reportNewIncomingCall(with UUID: Foundation.UUID, update: CallKit.CXCallUpdate, completion: @escaping (Swift.Error?) -> Swift.Void)
+  func setDelegate(_ delegate: (any CallKit.CXProviderDelegate)?, queue: Dispatch.DispatchQueue?)
+  func reportNewIncomingCall(with UUID: Foundation.UUID, update: CallKit.CXCallUpdate, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   func reportCall(with UUID: Foundation.UUID, updated update: CallKit.CXCallUpdate)
   func reportCall(with UUID: Foundation.UUID, endedAt dateEnded: Foundation.Date?, reason endedReason: CallKit.CXCallEndedReason)
   func reportOutgoingCall(with UUID: Foundation.UUID, startedConnectingAt dateStartedConnecting: Foundation.Date?)
@@ -57,7 +58,7 @@ public protocol CXProviderProtocol : AnyObject {
 }
 public protocol CXCallControllerProtocol : AnyObject {
   var calls: [CallKit.CXCall] { get }
-  func request(_ transaction: CallKit.CXTransaction, completion: @escaping (Swift.Error?) -> Swift.Void)
+  func request(_ transaction: CallKit.CXTransaction, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
 }
 extension CallKit.CXProvider : MeetHourSDK.CXProviderProtocol {
 }
@@ -67,23 +68,23 @@ extension CallKit.CXCallController : MeetHourSDK.CXCallControllerProtocol {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class MHCallKitProxy : ObjectiveC.NSObject {
-  public static var callKitProvider: MeetHourSDK.CXProviderProtocol?
-  public static var callKitCallController: MeetHourSDK.CXCallControllerProtocol?
+  public static var callKitProvider: (any MeetHourSDK.CXProviderProtocol)?
+  public static var callKitCallController: (any MeetHourSDK.CXCallControllerProtocol)?
   @objc public static var enabled: Swift.Bool {
     @objc get
     @objc set
   }
   @objc public static func configureProvider(localizedName: Swift.String, ringtoneSound: Swift.String?, iconTemplateImageData: Foundation.Data?)
   @objc public static func isProviderConfigured() -> Swift.Bool
-  @objc public static func addListener(_ listener: MeetHourSDK.MHCallKitListener)
-  @objc public static func removeListener(_ listener: MeetHourSDK.MHCallKitListener)
+  @objc public static func addListener(_ listener: any MeetHourSDK.MHCallKitListener)
+  @objc public static func removeListener(_ listener: any MeetHourSDK.MHCallKitListener)
   @objc public static func hasActiveCallForUUID(_ callUUID: Swift.String) -> Swift.Bool
-  @objc public static func reportNewIncomingCall(UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool, completion: @escaping (Swift.Error?) -> Swift.Void)
+  @objc public static func reportNewIncomingCall(UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   @objc public static func reportCallUpdate(with UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool)
   @objc public static func reportCall(with UUID: Foundation.UUID, endedAt dateEnded: Foundation.Date?, reason endedReason: CallKit.CXCallEndedReason)
   @objc public static func reportOutgoingCall(with UUID: Foundation.UUID, startedConnectingAt dateStartedConnecting: Foundation.Date?)
   @objc public static func reportOutgoingCall(with UUID: Foundation.UUID, connectedAt dateConnected: Foundation.Date?)
-  @objc public static func request(_ transaction: CallKit.CXTransaction, completion: @escaping (Swift.Error?) -> Swift.Void)
+  @objc public static func request(_ transaction: CallKit.CXTransaction, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 @objc public protocol MHCallKitListener : ObjectiveC.NSObjectProtocol {
