@@ -604,7 +604,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "MeetHourSDK.PiPViewCoordinatorDelegate?"
+                "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -628,12 +628,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MeetHourSDK.PiPViewCoordinatorDelegate?",
+                    "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PiPViewCoordinatorDelegate",
-                        "printedName": "MeetHourSDK.PiPViewCoordinatorDelegate",
+                        "printedName": "any MeetHourSDK.PiPViewCoordinatorDelegate",
                         "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP"
                       }
                     ],
@@ -660,12 +660,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MeetHourSDK.PiPViewCoordinatorDelegate?",
+                    "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PiPViewCoordinatorDelegate",
-                        "printedName": "MeetHourSDK.PiPViewCoordinatorDelegate",
+                        "printedName": "any MeetHourSDK.PiPViewCoordinatorDelegate",
                         "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP"
                       }
                     ],
@@ -1152,12 +1152,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CallKit.CXProviderDelegate?",
+                "printedName": "(any CallKit.CXProviderDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CXProviderDelegate",
-                    "printedName": "CallKit.CXProviderDelegate",
+                    "printedName": "any CallKit.CXProviderDelegate",
                     "usr": "c:objc(pl)CXProviderDelegate"
                   }
                 ],
@@ -1213,7 +1213,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1223,12 +1223,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1523,7 +1523,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1533,12 +1533,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1581,12 +1581,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MeetHourSDK.CXProviderProtocol?",
+                "printedName": "(any MeetHourSDK.CXProviderProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CXProviderProtocol",
-                    "printedName": "MeetHourSDK.CXProviderProtocol",
+                    "printedName": "any MeetHourSDK.CXProviderProtocol",
                     "usr": "s:11MeetHourSDK18CXProviderProtocolP"
                   }
                 ],
@@ -1615,12 +1615,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MeetHourSDK.CXProviderProtocol?",
+                    "printedName": "(any MeetHourSDK.CXProviderProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CXProviderProtocol",
-                        "printedName": "MeetHourSDK.CXProviderProtocol",
+                        "printedName": "any MeetHourSDK.CXProviderProtocol",
                         "usr": "s:11MeetHourSDK18CXProviderProtocolP"
                       }
                     ],
@@ -1651,12 +1651,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MeetHourSDK.CXProviderProtocol?",
+                    "printedName": "(any MeetHourSDK.CXProviderProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CXProviderProtocol",
-                        "printedName": "MeetHourSDK.CXProviderProtocol",
+                        "printedName": "any MeetHourSDK.CXProviderProtocol",
                         "usr": "s:11MeetHourSDK18CXProviderProtocolP"
                       }
                     ],
@@ -1706,12 +1706,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MeetHourSDK.CXCallControllerProtocol?",
+                "printedName": "(any MeetHourSDK.CXCallControllerProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CXCallControllerProtocol",
-                    "printedName": "MeetHourSDK.CXCallControllerProtocol",
+                    "printedName": "any MeetHourSDK.CXCallControllerProtocol",
                     "usr": "s:11MeetHourSDK24CXCallControllerProtocolP"
                   }
                 ],
@@ -1739,12 +1739,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MeetHourSDK.CXCallControllerProtocol?",
+                    "printedName": "(any MeetHourSDK.CXCallControllerProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CXCallControllerProtocol",
-                        "printedName": "MeetHourSDK.CXCallControllerProtocol",
+                        "printedName": "any MeetHourSDK.CXCallControllerProtocol",
                         "usr": "s:11MeetHourSDK24CXCallControllerProtocolP"
                       }
                     ],
@@ -1775,12 +1775,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MeetHourSDK.CXCallControllerProtocol?",
+                    "printedName": "(any MeetHourSDK.CXCallControllerProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CXCallControllerProtocol",
-                        "printedName": "MeetHourSDK.CXCallControllerProtocol",
+                        "printedName": "any MeetHourSDK.CXCallControllerProtocol",
                         "usr": "s:11MeetHourSDK24CXCallControllerProtocolP"
                       }
                     ],
@@ -2021,7 +2021,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MHCallKitListener",
-                "printedName": "MeetHourSDK.MHCallKitListener",
+                "printedName": "any MeetHourSDK.MHCallKitListener",
                 "usr": "c:@M@MeetHourSDK@objc(pl)MHCallKitListener"
               }
             ],
@@ -2050,7 +2050,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MHCallKitListener",
-                "printedName": "MeetHourSDK.MHCallKitListener",
+                "printedName": "any MeetHourSDK.MHCallKitListener",
                 "usr": "c:@M@MeetHourSDK@objc(pl)MHCallKitListener"
               }
             ],
@@ -2149,7 +2149,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2159,12 +2159,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -2407,7 +2407,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2417,12 +2417,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3039,305 +3039,60 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 1272,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 1343,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 1413,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
       "kind": "FloatLiteral",
       "offset": 1897,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 2002,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3098,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3130,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3161,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3258,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3462,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3560,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3600,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3952,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4673,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 5655,
-      "length": 14,
-      "value": "\"image-resize\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5889,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5901,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6044,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "FloatLiteral",
-      "offset": 6930,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7360,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7373,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "FloatLiteral",
-      "offset": 8331,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8366,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1154,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1227,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2298,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2586,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2640,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3262,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4240,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/picture-in-picture\/DragGestureController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4259,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
       "kind": "StringLiteral",
       "offset": 2860,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
       "kind": "BooleanLiteral",
       "offset": 3222,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4271,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4438,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5108,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5131,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8219,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8258,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8298,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Downloads\/Meethour-Web-MobileApps-096ca251d1a41784658e5455f53201adffab4de7\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8340,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
