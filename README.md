@@ -1,8 +1,10 @@
 # Meet Hour iOS SDK releases
 
 ---
+
 id: dev-guide-ios-sdk
 title: Meet Hour iOS SDK
+
 ---
 
 This repository contains the binaries for the **[Meet Hour]() iOS SDK**. Each
@@ -55,8 +57,8 @@ Last, since the SDK shows and hides the status bar based on the conference state
 you may want to set `UIViewControllerBasedStatusBarAppearance` to `NO` in your
 `Info.plist` file.
 
-
 # POD INSTALL
+
 ```
 pod install
 ```
