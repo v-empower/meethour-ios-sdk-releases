@@ -6,7 +6,7 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		9cBEB/zJQanpKbkzWCE+H9u0Z9I=
+		vszG3apEH/BPtvjpdbVgvqg1lPE=
 		</data>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -17,6 +17,14 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
+		<data>
+		hLc0ef/vdYmbV5NlyKYkUCG0jxg=
+		</data>
+		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		MCDRptixYfA+qALBX9b4uxq3rwo=
+		</data>
 		<key>CallKitIcon.png</key>
 		<data>
 		qU7OsCaFMpm2j24h/zSvv3VMZGY=
@@ -425,7 +433,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wJRuKtpzyNeK7mPE5bIAeyBnCqE=
+		LBw9iY2DeTcxBo3sbbb+LfHinMY=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -445,7 +453,7 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mG/QBkEaBFNI3Gw2Mt8bSCfRbQM=
+		amXcn86gWSlIde0lAkz58n0O9/s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -521,7 +529,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		So8BS339vDfpil0+emIgBRbe/Ig=
+		L3vsci9IemPqP9LOUgTtyLwDZhQ=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -554,7 +562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SWf/4h+1fgY+keBnMOpR5wf0BiKAsPyA31jC5tICNjg=
+			UdJSidWIMZMdPlR5HZhknsr6XKQ/APiZK6LML5HY+x4=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
@@ -565,6 +573,20 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u8QY6wqbGsEx9QcWaWhrlbRcBcsUJhrhIpgGuD0eY5A=
+			</data>
+		</dict>
+		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Wt6WL6rqHt273QbEz4qHLOxVT2TFWgDgATYATTeOHO0=
+			</data>
 		</dict>
 		<key>CallKitIcon.png</key>
 		<dict>
@@ -1052,7 +1074,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MarukVWQxIok8gScDPpSkkfavrgomIbvDTEzX8pSBIk=
+			eDpPD/m9SpOQsj/BVrDN+RE94fLcfbe7eIdJLwcNg3Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1185,7 +1207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SpavULkWK+V1CMkcC7ceyIDF5MBtmFjvxHOGbvmPrp8=
+			D/0tjhs4ccRpnxmnY/XBVbAFG7OYwG3Z5u1+7FC25ds=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>
