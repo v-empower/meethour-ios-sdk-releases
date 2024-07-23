@@ -278,6 +278,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CallKit;
+@import CoreFoundation;
 @import ObjectiveC;
 #endif
 
@@ -344,6 +345,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
 + (void)reportOutgoingCallWith:(NSUUID * _Nonnull)UUID startedConnectingAt:(NSDate * _Nullable)dateStartedConnecting;
 + (void)reportOutgoingCallWith:(NSUUID * _Nonnull)UUID connectedAt:(NSDate * _Nullable)dateConnected;
 + (void)request:(CXTransaction * _Nonnull)transaction completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+@end
+
+@class UIView;
+@class AVAsset;
+@class AVPlayer;
+@class UIButton;
+
+/// Coordinates the view state of a specified view to allow
+/// to be presented in full screen or in a custom Picture in Picture mode.
+/// This object will also provide the drag and tap interactions of the view
+/// when is presented in Picure in Picture mode. Now also support AVPictureInPictureController
+SWIFT_CLASS("_TtC11MeetHourSDK18PiPViewCoordinator")
+@interface PiPViewCoordinator : NSObject
+- (nonnull instancetype)initWithView:(UIView * _Nonnull)view OBJC_DESIGNATED_INITIALIZER;
+- (void)configureAsStickyViewWithParentView:(UIView * _Nullable)parentView;
+- (void)showWithCompletion:(void (^ _Nullable)(BOOL))completion;
+- (void)enterPictureInPictureWithAsset:(AVAsset * _Nonnull)asset;
+- (void)enterPictureInPictureWithPlayer:(AVPlayer * _Nonnull)player;
+- (void)exitPictureInPicture;
+- (void)resetBoundsWithBounds:(CGRect)bounds;
+- (void)stopDragGesture;
+- (UIButton * _Nonnull)configureExitPiPButtonWithTarget:(id _Nonnull)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_PROTOCOL("_TtP11MeetHourSDK26PiPViewCoordinatorDelegate_")
+@protocol PiPViewCoordinatorDelegate
+- (void)exitPictureInPicture;
 @end
 
 #endif

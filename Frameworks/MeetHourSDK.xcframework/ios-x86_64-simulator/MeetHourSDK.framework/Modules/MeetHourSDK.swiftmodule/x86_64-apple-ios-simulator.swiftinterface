@@ -11,14 +11,10 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public typealias AnimationCompletion = (Swift.Bool) -> Swift.Void
-public protocol PiPViewCoordinatorDelegate : AnyObject {
-  func exitPictureInPicture()
+@objc public protocol PiPViewCoordinatorDelegate {
+  @objc func exitPictureInPicture()
 }
-public class PiPViewCoordinator {
-  public var dragBoundInsets: UIKit.UIEdgeInsets {
-    get
-    set
-  }
+@objc public class PiPViewCoordinator : ObjectiveC.NSObject {
   public enum Position {
     case lowerRightCorner
     case upperRightCorner
@@ -30,19 +26,21 @@ public class PiPViewCoordinator {
       get
     }
   }
-  public var initialPositionInSuperview: MeetHourSDK.PiPViewCoordinator.Position
-  @available(*, deprecated, message: "The PiP window size is now fixed to 150px.")
-  public var c: CoreFoundation.CGFloat
+  public var dragBoundInsets: UIKit.UIEdgeInsets {
+    get
+    set
+  }
   weak public var delegate: (any MeetHourSDK.PiPViewCoordinatorDelegate)?
-  public init(withView view: UIKit.UIView)
-  public func configureAsStickyView(withParentView parentView: UIKit.UIView? = nil)
-  public func show(completion: MeetHourSDK.AnimationCompletion? = nil)
+  @objc public init(withView view: UIKit.UIView)
+  @objc public func configureAsStickyView(withParentView parentView: UIKit.UIView? = nil)
+  @objc public func show(completion: MeetHourSDK.AnimationCompletion? = nil)
   public func hide(completion: MeetHourSDK.AnimationCompletion? = nil)
-  public func enterPictureInPicture()
+  @objc public func enterPictureInPicture(withAsset asset: AVFoundation.AVAsset)
+  @objc public func enterPictureInPicture(withPlayer player: AVFoundation.AVPlayer)
   @objc public func exitPictureInPicture()
-  public func resetBounds(bounds: CoreFoundation.CGRect)
-  public func stopDragGesture()
-  open func configureExitPiPButton(target: Any, action: ObjectiveC.Selector) -> UIKit.UIButton
+  @objc public func resetBounds(bounds: CoreFoundation.CGRect)
+  @objc public func stopDragGesture()
+  @objc public func configureExitPiPButton(target: Any, action: ObjectiveC.Selector) -> UIKit.UIButton
   @objc deinit
 }
 public protocol CXProviderProtocol : AnyObject {

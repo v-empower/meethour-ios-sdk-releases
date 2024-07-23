@@ -15,6 +15,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h> // Import AVFoundation for AVPlayer
 
 #import "MeetHourConferenceOptions.h"
 #import "MeetHourViewDelegate.h"
@@ -22,9 +23,10 @@
 @interface MeetHourView : UIView
 
 @property (nonatomic, nullable, weak) id<MeetHourViewDelegate> delegate;
+@property (nonatomic, nullable, strong) AVPlayer *avPlayer; // Declare avPlayer property
 
 /**
- * Joins the conference specified by the given options. The gievn options will
+ * Joins the conference specified by the given options. The given options will
  * be merged with the defaultConferenceOptions (if set) in MeetHour. If there
  * is an already active conference it will be automatically left prior to
  * joining the new one.
