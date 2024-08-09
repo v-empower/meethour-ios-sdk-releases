@@ -10,37 +10,45 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public typealias AnimationCompletion = (Swift.Bool) -> Swift.Void
+public typealias AnimationCompletion = ((Swift.Bool) -> Swift.Void)?
 @objc public protocol PiPViewCoordinatorDelegate {
   @objc func exitPictureInPicture()
 }
 @objc public class PiPViewCoordinator : ObjectiveC.NSObject {
-  public enum Position {
-    case lowerRightCorner
-    case upperRightCorner
-    case lowerLeftCorner
-    case upperLeftCorner
-    public static func == (a: MeetHourSDK.PiPViewCoordinator.Position, b: MeetHourSDK.PiPViewCoordinator.Position) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public var dragBoundInsets: UIKit.UIEdgeInsets {
-    get
-    set
-  }
   weak public var delegate: (any MeetHourSDK.PiPViewCoordinatorDelegate)?
-  @objc public init(withView view: UIKit.UIView)
-  @objc public func configureAsStickyView(withParentView parentView: UIKit.UIView? = nil)
-  @objc public func show(completion: MeetHourSDK.AnimationCompletion? = nil)
+  public var dragBoundInsets: UIKit.UIEdgeInsets
+  public var initialPositionInSuperview: MeetHourSDK.PiPViewInitialPosition
+  public init(view: UIKit.UIView)
+  public func configureAsStickyView(withParentView parentView: UIKit.UIView? = nil)
+  public func show(completion: MeetHourSDK.AnimationCompletion? = nil)
   public func hide(completion: MeetHourSDK.AnimationCompletion? = nil)
-  @objc public func enterPictureInPicture(withAsset asset: AVFoundation.AVAsset)
-  @objc public func enterPictureInPicture(withPlayer player: AVFoundation.AVPlayer)
+  public func enterPictureInPicture()
   @objc public func exitPictureInPicture()
-  @objc public func resetBounds(bounds: CoreFoundation.CGRect)
-  @objc public func stopDragGesture()
-  @objc public func configureExitPiPButton(target: Any, action: ObjectiveC.Selector) -> UIKit.UIButton
+  public func resetBounds(bounds: CoreFoundation.CGRect)
+  public func stopDragGesture()
+  open func configureExitPiPButton(target: Any, action: ObjectiveC.Selector) -> UIKit.UIButton
+  @objc deinit
+}
+public enum PiPViewInitialPosition {
+  case lowerLeftCorner
+  case lowerRightCorner
+  case upperLeftCorner
+  case upperRightCorner
+  public static func == (a: MeetHourSDK.PiPViewInitialPosition, b: MeetHourSDK.PiPViewInitialPosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MeetHourSDK.PiPViewCoordinator : AVKit.AVPictureInPictureControllerDelegate {
+  @objc dynamic public func pictureInPictureControllerDidStartPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
+  @objc dynamic public func pictureInPictureControllerDidStopPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
+}
+@_inheritsConvenienceInitializers @objc(DragGestureController) public class DragGestureController : ObjectiveC.NSObject {
+  public var insets: UIKit.UIEdgeInsets
+  public func startDragListener(inView view: UIKit.UIView)
+  public func stopDragListener()
+  @objc override dynamic public init()
   @objc deinit
 }
 public protocol CXProviderProtocol : AnyObject {
@@ -94,5 +102,5 @@ extension CallKit.CXCallController : MeetHourSDK.CXCallControllerProtocol {
   @objc optional func providerDidDeactivateAudioSession(session: AVFAudio.AVAudioSession)
   @objc optional func providerTimedOutPerformingAction(action: CallKit.CXAction)
 }
-extension MeetHourSDK.PiPViewCoordinator.Position : Swift.Equatable {}
-extension MeetHourSDK.PiPViewCoordinator.Position : Swift.Hashable {}
+extension MeetHourSDK.PiPViewInitialPosition : Swift.Equatable {}
+extension MeetHourSDK.PiPViewInitialPosition : Swift.Hashable {}

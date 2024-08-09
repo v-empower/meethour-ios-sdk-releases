@@ -277,8 +277,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVKit;
 @import CallKit;
-@import CoreFoundation;
 @import ObjectiveC;
 #endif
 
@@ -301,6 +301,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
+
+SWIFT_CLASS_NAMED("DragGestureController")
+@interface DragGestureController : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class NSUUID;
 @class AVAudioSession;
@@ -347,28 +353,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
 + (void)request:(CXTransaction * _Nonnull)transaction completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 @end
 
-@class UIView;
-@class AVAsset;
-@class AVPlayer;
-@class UIButton;
 
-/// Coordinates the view state of a specified view to allow
-/// to be presented in full screen or in a custom Picture in Picture mode.
-/// This object will also provide the drag and tap interactions of the view
-/// when is presented in Picure in Picture mode. Now also support AVPictureInPictureController
 SWIFT_CLASS("_TtC11MeetHourSDK18PiPViewCoordinator")
 @interface PiPViewCoordinator : NSObject
-- (nonnull instancetype)initWithView:(UIView * _Nonnull)view OBJC_DESIGNATED_INITIALIZER;
-- (void)configureAsStickyViewWithParentView:(UIView * _Nullable)parentView;
-- (void)showWithCompletion:(void (^ _Nullable)(BOOL))completion;
-- (void)enterPictureInPictureWithAsset:(AVAsset * _Nonnull)asset;
-- (void)enterPictureInPictureWithPlayer:(AVPlayer * _Nonnull)player;
+/// Exit Picture in picture mode, this will resize view, remove
+/// exit pip button, and disable the drag gesture
 - (void)exitPictureInPicture;
-- (void)resetBoundsWithBounds:(CGRect)bounds;
-- (void)stopDragGesture;
-- (UIButton * _Nonnull)configureExitPiPButtonWithTarget:(id _Nonnull)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class AVPictureInPictureController;
+
+@interface PiPViewCoordinator (SWIFT_EXTENSION(MeetHourSDK)) <AVPictureInPictureControllerDelegate>
+- (void)pictureInPictureControllerDidStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
+- (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 @end
 
 

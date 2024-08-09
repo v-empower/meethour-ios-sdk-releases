@@ -15,7 +15,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h> // Import AVFoundation for AVPlayer
 
 #import "MeetHourConferenceOptions.h"
 #import "MeetHourViewDelegate.h"
@@ -23,7 +22,6 @@
 @interface MeetHourView : UIView
 
 @property (nonatomic, nullable, weak) id<MeetHourViewDelegate> delegate;
-@property (nonatomic, nullable, strong) AVPlayer *avPlayer; // Declare avPlayer property
 
 /**
  * Joins the conference specified by the given options. The given options will
@@ -45,5 +43,10 @@
 - (void)closeChat;
 - (void)sendChatMessage:(NSString * _Nonnull)message :(NSString * _Nullable)to;
 - (void)setVideoMuted:(BOOL)muted;
+
+/**
+ * Starts Picture-in-Picture mode for the MeetHourView.
+ */
+- (void)enterPictureInPicture;
 
 @end
