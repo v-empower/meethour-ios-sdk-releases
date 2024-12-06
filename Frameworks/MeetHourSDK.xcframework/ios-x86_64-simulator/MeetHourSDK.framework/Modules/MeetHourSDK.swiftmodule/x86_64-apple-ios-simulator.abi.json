@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MeetHourSDK",
+    "printedName": "MeetHourSDK",
     "children": [
       {
         "kind": "Import",
@@ -15,17 +15,31 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "MeetHourSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "PiPViewCoordinatorDelegate",
         "printedName": "PiPViewCoordinatorDelegate",
         "children": [
+          {
+            "kind": "Function",
+            "name": "enterPictureInPicture",
+            "printedName": "enterPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP014enterPictureInI0yyF",
+            "mangledName": "$s11MeetHourSDK26PiPViewCoordinatorDelegateP014enterPictureInI0yyF",
+            "moduleName": "MeetHourSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MeetHourSDK.PiPViewCoordinatorDelegate>",
+            "sugared_genericSig": "<Self where Self : MeetHourSDK.PiPViewCoordinatorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "exitPictureInPicture",
@@ -38,29 +52,82 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MeetHourSDK@objc(pl)PiPViewCoordinatorDelegate(im)exitPictureInPicture",
+            "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP013exitPictureInI0yyF",
             "mangledName": "$s11MeetHourSDK26PiPViewCoordinatorDelegateP013exitPictureInI0yyF",
             "moduleName": "MeetHourSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : MeetHourSDK.PiPViewCoordinatorDelegate>",
             "sugared_genericSig": "<Self where Self : MeetHourSDK.PiPViewCoordinatorDelegate>",
             "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureAsStickyView",
+            "printedName": "configureAsStickyView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP21configureAsStickyViewyyF",
+            "mangledName": "$s11MeetHourSDK26PiPViewCoordinatorDelegateP21configureAsStickyViewyyF",
+            "moduleName": "MeetHourSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MeetHourSDK.PiPViewCoordinatorDelegate>",
+            "sugared_genericSig": "<Self where Self : MeetHourSDK.PiPViewCoordinatorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegatePxycfc",
+            "mangledName": "$s11MeetHourSDK26PiPViewCoordinatorDelegatePxycfc",
+            "moduleName": "MeetHourSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MeetHourSDK.PiPViewCoordinatorDelegate>",
+            "sugared_genericSig": "<Self where Self : MeetHourSDK.PiPViewCoordinatorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Protocol",
-        "usr": "c:@M@MeetHourSDK@objc(pl)PiPViewCoordinatorDelegate",
+        "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP",
         "mangledName": "$s11MeetHourSDK26PiPViewCoordinatorDelegateP",
         "moduleName": "MeetHourSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -68,109 +135,6 @@
         "name": "PiPViewCoordinator",
         "printedName": "PiPViewCoordinator",
         "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvp",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvp",
-            "moduleName": "MeetHourSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PiPViewCoordinatorDelegate",
-                        "printedName": "any MeetHourSDK.PiPViewCoordinatorDelegate",
-                        "usr": "c:@M@MeetHourSDK@objc(pl)PiPViewCoordinatorDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvg",
-                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvg",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PiPViewCoordinatorDelegate",
-                        "printedName": "any MeetHourSDK.PiPViewCoordinatorDelegate",
-                        "usr": "c:@M@MeetHourSDK@objc(pl)PiPViewCoordinatorDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvs",
-                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvs",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvM",
-                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvM",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
           {
             "kind": "Var",
             "name": "dragBoundInsets",
@@ -190,7 +154,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -258,20 +223,308 @@
             ]
           },
           {
+            "kind": "TypeDecl",
+            "name": "Position",
+            "printedName": "Position",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "lowerRightCorner",
+                "printedName": "lowerRightCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MeetHourSDK.PiPViewCoordinator.Position.Type) -> MeetHourSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                        "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO16lowerRightCorneryA2EmF",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO16lowerRightCorneryA2EmF",
+                "moduleName": "MeetHourSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "upperRightCorner",
+                "printedName": "upperRightCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MeetHourSDK.PiPViewCoordinator.Position.Type) -> MeetHourSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                        "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO16upperRightCorneryA2EmF",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO16upperRightCorneryA2EmF",
+                "moduleName": "MeetHourSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "lowerLeftCorner",
+                "printedName": "lowerLeftCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MeetHourSDK.PiPViewCoordinator.Position.Type) -> MeetHourSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                        "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO15lowerLeftCorneryA2EmF",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO15lowerLeftCorneryA2EmF",
+                "moduleName": "MeetHourSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "upperLeftCorner",
+                "printedName": "upperLeftCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MeetHourSDK.PiPViewCoordinator.Position.Type) -> MeetHourSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                        "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MeetHourSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO15upperLeftCorneryA2EmF",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO15upperLeftCorneryA2EmF",
+                "moduleName": "MeetHourSDK"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                    "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                    "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO2eeoiySbAE_AEtFZ",
+                "moduleName": "MeetHourSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO9hashValueSivp",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO9hashValueSivp",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO9hashValueSivg",
+                    "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO9hashValueSivg",
+                    "moduleName": "MeetHourSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO4hash4intoys6HasherVz_tF",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8PositionO",
+            "moduleName": "MeetHourSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
             "kind": "Var",
             "name": "initialPositionInSuperview",
             "printedName": "initialPositionInSuperview",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PiPViewInitialPosition",
-                "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
+                "name": "Position",
+                "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0Ovp",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0Ovp",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0Ovp",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0Ovp",
             "moduleName": "MeetHourSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -287,14 +540,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PiPViewInitialPosition",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                    "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
+                    "name": "Position",
+                    "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                    "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0Ovg",
-                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0Ovg",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0Ovg",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0Ovg",
                 "moduleName": "MeetHourSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -311,14 +564,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "PiPViewInitialPosition",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                    "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
+                    "name": "Position",
+                    "printedName": "MeetHourSDK.PiPViewCoordinator.Position",
+                    "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8PositionO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0Ovs",
-                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0Ovs",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0Ovs",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0Ovs",
                 "moduleName": "MeetHourSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -335,8 +588,204 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0OvM",
-                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAA0de7InitialH0OvM",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0OvM",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC26initialPositionInSuperviewAC0H0OvM",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "c",
+            "printedName": "c",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvp",
+            "moduleName": "MeetHourSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvg",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvs",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvM",
+                "moduleName": "MeetHourSDK",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvp",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvp",
+            "moduleName": "MeetHourSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PiPViewCoordinatorDelegate",
+                        "printedName": "any MeetHourSDK.PiPViewCoordinatorDelegate",
+                        "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvg",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvg",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MeetHourSDK.PiPViewCoordinatorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PiPViewCoordinatorDelegate",
+                        "printedName": "any MeetHourSDK.PiPViewCoordinatorDelegate",
+                        "usr": "s:11MeetHourSDK26PiPViewCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvs",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvs",
+                "moduleName": "MeetHourSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvM",
+                "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvM",
                 "moduleName": "MeetHourSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -346,13 +795,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(view:)",
+            "printedName": "init(withView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "PiPViewCoordinator",
                 "printedName": "MeetHourSDK.PiPViewCoordinator",
-                "usr": "c:@M@MeetHourSDK@objc(cs)PiPViewCoordinator"
+                "usr": "s:11MeetHourSDK18PiPViewCoordinatorC"
               },
               {
                 "kind": "TypeNominal",
@@ -362,11 +811,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC4viewACSo6UIViewC_tcfc",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC4viewACSo6UIViewC_tcfc",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC8withViewACSo6UIViewC_tcfc",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC8withViewACSo6UIViewC_tcfc",
             "moduleName": "MeetHourSDK",
+            "objc_name": "initWithView:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -400,8 +851,10 @@
             "usr": "s:11MeetHourSDK18PiPViewCoordinatorC21configureAsStickyView010withParentJ0ySo6UIViewCSg_tF",
             "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC21configureAsStickyView010withParentJ0ySo6UIViewCSg_tF",
             "moduleName": "MeetHourSDK",
+            "objc_name": "configureAsStickyViewWithParentView:",
             "declAttributes": [
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -419,33 +872,25 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())??",
+                "printedName": "((Swift.Bool) -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.Bool) -> ())?",
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
                     "children": [
                       {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.Bool) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ]
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ],
                 "hasDefaultArg": true,
@@ -453,11 +898,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC4show10completionyySbcSgSg_tF",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC4show10completionyySbcSgSg_tF",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC4show10completionyySbcSg_tF",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC4show10completionyySbcSg_tF",
             "moduleName": "MeetHourSDK",
+            "objc_name": "showWithCompletion:",
             "declAttributes": [
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -475,33 +922,25 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())??",
+                "printedName": "((Swift.Bool) -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.Bool) -> ())?",
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
                     "children": [
                       {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.Bool) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ]
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ],
                 "hasDefaultArg": true,
@@ -509,11 +948,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC4hide10completionyySbcSgSg_tF",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC4hide10completionyySbcSgSg_tF",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC4hide10completionyySbcSg_tF",
+            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC4hide10completionyySbcSg_tF",
             "moduleName": "MeetHourSDK",
+            "objc_name": "hideWithCompletion:",
             "declAttributes": [
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -535,6 +976,7 @@
             "moduleName": "MeetHourSDK",
             "declAttributes": [
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -551,7 +993,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MeetHourSDK@objc(cs)PiPViewCoordinator(im)exitPictureInPicture",
+            "usr": "s:11MeetHourSDK18PiPViewCoordinatorC013exitPictureInH0yyF",
             "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC013exitPictureInH0yyF",
             "moduleName": "MeetHourSDK",
             "declAttributes": [
@@ -636,434 +1078,37 @@
             "usr": "s:11MeetHourSDK18PiPViewCoordinatorC013configureExitD7PButton6target6actionSo8UIButtonCyp_10ObjectiveC8SelectorVtF",
             "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC013configureExitD7PButton6target6actionSo8UIButtonCyp_10ObjectiveC8SelectorVtF",
             "moduleName": "MeetHourSDK",
+            "objc_name": "configureExitPiPButtonWithTarget:action:",
             "declAttributes": [
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PiPViewCoordinator",
-                "printedName": "MeetHourSDK.PiPViewCoordinator",
-                "usr": "c:@M@MeetHourSDK@objc(cs)PiPViewCoordinator"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MeetHourSDK@objc(cs)PiPViewCoordinator(im)init",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorCACycfc",
-            "moduleName": "MeetHourSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "pictureInPictureControllerDidStartPictureInPicture",
-            "printedName": "pictureInPictureControllerDidStartPictureInPicture(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AVPictureInPictureController",
-                "printedName": "AVKit.AVPictureInPictureController",
-                "usr": "c:objc(cs)AVPictureInPictureController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MeetHourSDK@objc(cs)PiPViewCoordinator(im)pictureInPictureControllerDidStartPictureInPicture:",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC034pictureInPictureControllerDidStartihI0yySo09AVPicturehiJ0CF",
-            "moduleName": "MeetHourSDK",
-            "objc_name": "pictureInPictureControllerDidStartPictureInPicture:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "pictureInPictureControllerDidStopPictureInPicture",
-            "printedName": "pictureInPictureControllerDidStopPictureInPicture(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AVPictureInPictureController",
-                "printedName": "AVKit.AVPictureInPictureController",
-                "usr": "c:objc(cs)AVPictureInPictureController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MeetHourSDK@objc(cs)PiPViewCoordinator(im)pictureInPictureControllerDidStopPictureInPicture:",
-            "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC033pictureInPictureControllerDidStopihI0yySo09AVPicturehiJ0CF",
-            "moduleName": "MeetHourSDK",
-            "objc_name": "pictureInPictureControllerDidStopPictureInPicture:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@MeetHourSDK@objc(cs)PiPViewCoordinator",
+        "usr": "s:11MeetHourSDK18PiPViewCoordinatorC",
         "mangledName": "$s11MeetHourSDK18PiPViewCoordinatorC",
         "moduleName": "MeetHourSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "RawDocComment"
         ],
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PiPViewInitialPosition",
-        "printedName": "PiPViewInitialPosition",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "lowerLeftCorner",
-            "printedName": "lowerLeftCorner",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MeetHourSDK.PiPViewInitialPosition.Type) -> MeetHourSDK.PiPViewInitialPosition",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PiPViewInitialPosition",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                    "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PiPViewInitialPosition",
-                        "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                        "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO15lowerLeftCorneryA2CmF",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO15lowerLeftCorneryA2CmF",
-            "moduleName": "MeetHourSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "lowerRightCorner",
-            "printedName": "lowerRightCorner",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MeetHourSDK.PiPViewInitialPosition.Type) -> MeetHourSDK.PiPViewInitialPosition",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PiPViewInitialPosition",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                    "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PiPViewInitialPosition",
-                        "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                        "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO16lowerRightCorneryA2CmF",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO16lowerRightCorneryA2CmF",
-            "moduleName": "MeetHourSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "upperLeftCorner",
-            "printedName": "upperLeftCorner",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MeetHourSDK.PiPViewInitialPosition.Type) -> MeetHourSDK.PiPViewInitialPosition",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PiPViewInitialPosition",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                    "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PiPViewInitialPosition",
-                        "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                        "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO15upperLeftCorneryA2CmF",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO15upperLeftCorneryA2CmF",
-            "moduleName": "MeetHourSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "upperRightCorner",
-            "printedName": "upperRightCorner",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MeetHourSDK.PiPViewInitialPosition.Type) -> MeetHourSDK.PiPViewInitialPosition",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PiPViewInitialPosition",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                    "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MeetHourSDK.PiPViewInitialPosition.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PiPViewInitialPosition",
-                        "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                        "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO16upperRightCorneryA2CmF",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO16upperRightCorneryA2CmF",
-            "moduleName": "MeetHourSDK"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PiPViewInitialPosition",
-                "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PiPViewInitialPosition",
-                "printedName": "MeetHourSDK.PiPViewInitialPosition",
-                "usr": "s:11MeetHourSDK22PiPViewInitialPositionO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO2eeoiySbAC_ACtFZ",
-            "moduleName": "MeetHourSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO9hashValueSivp",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO9hashValueSivp",
-            "moduleName": "MeetHourSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK22PiPViewInitialPositionO9hashValueSivg",
-                "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO9hashValueSivg",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MeetHourSDK22PiPViewInitialPositionO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO4hash4intoys6HasherVz_tF",
-            "moduleName": "MeetHourSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:11MeetHourSDK22PiPViewInitialPositionO",
-        "mangledName": "$s11MeetHourSDK22PiPViewInitialPositionO",
-        "moduleName": "MeetHourSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1099,236 +1144,6 @@
         "moduleName": "MeetHourSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DragGestureController",
-        "printedName": "DragGestureController",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "insets",
-            "printedName": "insets",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIEdgeInsets",
-                "printedName": "UIKit.UIEdgeInsets",
-                "usr": "c:@S@UIEdgeInsets"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvp",
-            "mangledName": "$s11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvp",
-            "moduleName": "MeetHourSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIEdgeInsets",
-                    "printedName": "UIKit.UIEdgeInsets",
-                    "usr": "c:@S@UIEdgeInsets"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvg",
-                "mangledName": "$s11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvg",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIEdgeInsets",
-                    "printedName": "UIKit.UIEdgeInsets",
-                    "usr": "c:@S@UIEdgeInsets"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvs",
-                "mangledName": "$s11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvs",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvM",
-                "mangledName": "$s11MeetHourSDK21DragGestureControllerC6insetsSo12UIEdgeInsetsVvM",
-                "moduleName": "MeetHourSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "startDragListener",
-            "printedName": "startDragListener(inView:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MeetHourSDK21DragGestureControllerC05startD8Listener6inViewySo6UIViewC_tF",
-            "mangledName": "$s11MeetHourSDK21DragGestureControllerC05startD8Listener6inViewySo6UIViewC_tF",
-            "moduleName": "MeetHourSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopDragListener",
-            "printedName": "stopDragListener()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MeetHourSDK21DragGestureControllerC04stopD8ListeneryyF",
-            "mangledName": "$s11MeetHourSDK21DragGestureControllerC04stopD8ListeneryyF",
-            "moduleName": "MeetHourSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DragGestureController",
-                "printedName": "MeetHourSDK.DragGestureController",
-                "usr": "c:@M@MeetHourSDK@objc(cs)DragGestureController"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MeetHourSDK@objc(cs)DragGestureController(im)init",
-            "mangledName": "$s11MeetHourSDK21DragGestureControllerCACycfc",
-            "moduleName": "MeetHourSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MeetHourSDK@objc(cs)DragGestureController",
-        "mangledName": "$s11MeetHourSDK21DragGestureControllerC",
-        "moduleName": "MeetHourSDK",
-        "objc_name": "DragGestureController",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
         ]
       },
       {
@@ -1744,6 +1559,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1871,6 +1702,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2768,6 +2615,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3117,6 +2978,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3141,6 +3018,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3283,6 +3174,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3345,17 +3250,45 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1076,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 2,
+      "value": "25"
     },
     {
       "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 860,
-      "length": 18,
-      "value": "\"MeetHourSDK.PiPViewCoordinator\""
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1419,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1489,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "FloatLiteral",
+      "offset": 1973,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2078,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Downloads\/MeetHour\/Meethour-Web-MobileApps\/ios\/sdk\/src\/callkit\/MHCallKitProxy.swift",
