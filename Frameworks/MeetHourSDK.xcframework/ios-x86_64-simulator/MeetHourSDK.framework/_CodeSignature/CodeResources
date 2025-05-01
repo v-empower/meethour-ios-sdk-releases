@@ -24,6 +24,22 @@
 		<data>
 		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
 		</data>
+		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
+		<data>
+		GZ012EHMCINVdWabrH5l0zy3+XE=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/Info.plist</key>
+		<data>
+		bjSSHzym7jT2G4FXfZ1+DNkE2KA=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
+		<data>
+		tCVR53UKY8cVbIGkyz5P3ND7zLo=
+		</data>
 		<key>GTMAppAuth_Privacy.bundle/Info.plist</key>
 		<data>
 		btaPp78IKtN/WBGo8R/wAE1x9cY=
@@ -39,6 +55,14 @@
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		vl2l2r7QI8jtLk9l9j+eECRhsyQ=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
 		</data>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<data>
@@ -448,7 +472,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GrhQzKHLdFrn2fD7e4lqj3OYSVQ=
+		b4v3urE2ZLOCPfxyen8D/gCuEng=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -468,7 +492,7 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nMlJb9jQ7oyVcXzrrOWxMP+KRaA=
+		km387/AHsA5zJd1RzkICebZWXzY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -484,7 +508,7 @@
 		</data>
 		<key>RCTI18nStrings.bundle/Info.plist</key>
 		<data>
-		wICY4mshbjhH1kUDIj71qGNnA7I=
+		IhlHKO6dif9dUYbWL3swtVrdAec=
 		</data>
 		<key>RCTI18nStrings.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1145,11 +1169,19 @@
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<data>
-		D0J3BJhPiR127gpFAupmrrEaDLU=
+		7p52lnccjejHF7Bbjrwvuva6Dgc=
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		sPDfyCwXVFwSP8cGRWRskpblWgM=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		rzSejBTJd6cNE8x3BTitS+j1L6U=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
 		</data>
 		<key>assets/images/GIPHY_icon.png</key>
 		<data>
@@ -1191,6 +1223,14 @@
 		<data>
 		eePUw1+UeL1R1bPtRDKEa+ldnv4=
 		</data>
+		<key>assets/images/right-arrow.png</key>
+		<data>
+		NP3pn699ScBjVT0xkEApeb2WGYM=
+		</data>
+		<key>assets/images/transcription.png</key>
+		<data>
+		y74NOpkj+lKGr6M62Fg5+9LTUZ4=
+		</data>
 		<key>assets/images/watermark.png</key>
 		<data>
 		bkrx0+YWV9HwHLWnGpquKskjHwI=
@@ -1229,7 +1269,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		JHC50zuuVQ3Web8OFuGB0KV4+Z4=
+		ZQ0Hxjb4NCC4TsLF1kx0tf80pS8=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -1321,6 +1361,34 @@
 			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
 			</data>
 		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FWW6RGt/Tq6G8WO1TzFo2JWVbkKmr/Xd3YPP7PWbu5Y=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xQbUUA06HkSUBjhF9CeppDlob5yltGblPVGTIaKhd1c=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LPbayWtxTUGpcpFbCyEz8caA9obpWxKOUAV1CFWzboE=
+			</data>
+		</dict>
 		<key>GTMAppAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1347,6 +1415,20 @@
 			<key>hash2</key>
 			<data>
 			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			++iZSKCOyrOJ3/DjVhdMGznxcYRSOS1+6KXIHu57iBE=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/Info.plist</key>
@@ -1835,7 +1917,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jcZ2nMr00SJ6NwjxObfrj6jVERVdCUPbEVLD1h6UzE=
+			7WtmX7TfivgRzkdbbQu95V9pltC6bUw1PlS+jgGNkyY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1863,7 +1945,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g/sR13dJaNuLb6V/XAWFUE1gWk64Wfu/CIn0iwW5VoY=
+			sKfge0ywZaTjdKTE/Zk8lje7kIqdL+F4iDd84L2dla0=
 			</data>
 		</dict>
 		<key>RCTI18nStrings.bundle/ar.lproj/Localizable.strings</key>
@@ -2527,7 +2609,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1GrJnszOl2XSLf8Od+pFPOaPnytcbP+IvL3nAU8Syg=
+			qG9bdsbu6OZGSGyLH3fNzIfL9MWP0eceqoRIv4ERd0s=
 			</data>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
@@ -2535,6 +2617,20 @@
 			<key>hash2</key>
 			<data>
 			CxKH0OaGz4Z9ONl8yl3GlLMCnyfE/kJw3UvS/VRYovA=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			juko1mtSJ7gnaj2jFLFsmdGvjpnJqnEqyUGGyng/tnc=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 		<key>assets/images/GIPHY_icon.png</key>
@@ -2607,6 +2703,20 @@
 			ueEqbdQSiMd4l6eDuVkkhT+flfgC3YQYTE2UzaKzbwI=
 			</data>
 		</dict>
+		<key>assets/images/right-arrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PbGC3YfoyEORegiLG6HBtDHQGbDNhiFj9JkMicxoDwA=
+			</data>
+		</dict>
+		<key>assets/images/transcription.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T7VGhgOwZn08ZBK4K1E2nIU4FR0IqqiehzYCyBUVPDw=
+			</data>
+		</dict>
 		<key>assets/images/watermark.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2674,7 +2784,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UK1gN3IeDD+gtHxlvtuVUhO0ItGzPkvpPQPkTJEwFy8=
+			8F/tLIzI7KXwOQ/5VMIBqNSIrCIv6M6UL7kVU9w8/xE=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>
