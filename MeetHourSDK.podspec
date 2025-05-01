@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MeetHourSDK'
-  s.version          = '4.5.4'
+  s.version          = '4.5.5'
   s.summary          = 'Meet Hour iOS SDK'
   s.description      = 'Meet Hour is HD Quality video conference solution with End to End Encrypted and many other features such as lobby mode, Donor box & Click&Pledge Connect for fundraising, Video call recording, Youtube Live Stream etc. For more details visit www.meethour.io.'
   s.homepage         = 'https://github.com/v-empower/meethour-ios-sdk-releases'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Meet Hour, LLC'
   s.source           = { :git => 'https://github.com/v-empower/meethour-ios-sdk-releases.git', :tag => s.version }
 
-  s.platform         = :ios, '12.0'
+  s.platform         = :ios, '13.1'
   s.swift_version    = '5'
 
   s.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermes.xcframework'

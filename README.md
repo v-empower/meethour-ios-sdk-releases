@@ -22,10 +22,10 @@ do so, add the `MeetHourSDK` dependency to your existing `Podfile` or create
 a new one following this example:
 
 ```
-platform :ios, '12.1'
+platform :ios, '13.1'
 
 target 'MeetHourSDKTest' do
-    pod 'MeetHourSDK', '~> 4.5.4'
+    pod 'MeetHourSDK', '~> 4.5.5'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
