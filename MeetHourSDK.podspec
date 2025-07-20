@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MeetHourSDK'
-  s.version          = '4.6.1'
+  s.version          = '4.6.2'
   s.summary          = 'Meet Hour iOS SDK'
   s.description      = 'Meet Hour is HD Quality video conference solution with End to End Encrypted and many other features such as lobby mode, Donor box & Click&Pledge Connect for fundraising, Video call recording, Youtube Live Stream etc. For more details visit www.meethour.io.'
   s.homepage         = 'https://github.com/v-empower/meethour-ios-sdk-releases'
