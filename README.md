@@ -25,7 +25,7 @@ a new one following this example:
 platform :ios, '13.1'
 
 target 'MeetHourSDKTest' do
-    pod 'MeetHourSDK', '~> 5.0.5'
+    pod 'MeetHourSDK', '~> 5.0.7'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
