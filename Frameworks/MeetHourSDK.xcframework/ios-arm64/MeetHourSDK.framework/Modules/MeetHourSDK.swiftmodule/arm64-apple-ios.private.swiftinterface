@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MeetHourSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVKit
 import CallKit
 import Foundation
@@ -39,9 +39,15 @@ public class PiPViewCoordinator {
   public var c: CoreFoundation.CGFloat
   weak public var delegate: (any MeetHourSDK.PiPViewCoordinatorDelegate)?
   @objc public init(withView view: UIKit.UIView)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func configureAsStickyView(withParentView parentView: UIKit.UIView? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func show(completion: MeetHourSDK.AnimationCompletion? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func hide(completion: MeetHourSDK.AnimationCompletion? = nil)
+  #endif
   @objc public func enterPictureInPicture()
   @objc public func exitPictureInPicture()
   public func resetBounds(bounds: CoreFoundation.CGRect)
@@ -51,17 +57,29 @@ public class PiPViewCoordinator {
 }
 public protocol CXProviderProtocol : AnyObject {
   var configuration: CallKit.CXProviderConfiguration { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   func setDelegate(_ delegate: (any CallKit.CXProviderDelegate)?, queue: Dispatch.DispatchQueue?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func reportNewIncomingCall(with UUID: Foundation.UUID, update: CallKit.CXCallUpdate, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   func reportCall(with UUID: Foundation.UUID, updated update: CallKit.CXCallUpdate)
+  #if compiler(>=5.3) && $NonescapableTypes
   func reportCall(with UUID: Foundation.UUID, endedAt dateEnded: Foundation.Date?, reason endedReason: CallKit.CXCallEndedReason)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func reportOutgoingCall(with UUID: Foundation.UUID, startedConnectingAt dateStartedConnecting: Foundation.Date?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func reportOutgoingCall(with UUID: Foundation.UUID, connectedAt dateConnected: Foundation.Date?)
+  #endif
   func invalidate()
 }
 public protocol CXCallControllerProtocol : AnyObject {
   var calls: [CallKit.CXCall] { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func request(_ transaction: CallKit.CXTransaction, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
 }
 extension CallKit.CXProvider : MeetHourSDK.CXProviderProtocol {
 }
@@ -77,17 +95,31 @@ extension CallKit.CXCallController : MeetHourSDK.CXCallControllerProtocol {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func configureProvider(localizedName: Swift.String, ringtoneSound: Swift.String?, iconTemplateImageData: Foundation.Data?)
+  #endif
   @objc public static func isProviderConfigured() -> Swift.Bool
   @objc public static func addListener(_ listener: any MeetHourSDK.MHCallKitListener)
   @objc public static func removeListener(_ listener: any MeetHourSDK.MHCallKitListener)
   @objc public static func hasActiveCallForUUID(_ callUUID: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func reportNewIncomingCall(UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func reportCallUpdate(with UUID: Foundation.UUID, handle: Swift.String?, displayName: Swift.String?, hasVideo: Swift.Bool)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func reportCall(with UUID: Foundation.UUID, endedAt dateEnded: Foundation.Date?, reason endedReason: CallKit.CXCallEndedReason)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func reportOutgoingCall(with UUID: Foundation.UUID, startedConnectingAt dateStartedConnecting: Foundation.Date?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func reportOutgoingCall(with UUID: Foundation.UUID, connectedAt dateConnected: Foundation.Date?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func request(_ transaction: CallKit.CXTransaction, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 @objc public protocol MHCallKitListener : ObjectiveC.NSObjectProtocol {
