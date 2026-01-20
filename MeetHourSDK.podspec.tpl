@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '13.1'
   s.swift_version    = '5'
 
-  s.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermes.xcframework'
+  s.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermes.xcframework', 'Frameworks/GoogleMobileAds.xcframework'
   s.dependency 'Giphy', '2.2.12'
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
