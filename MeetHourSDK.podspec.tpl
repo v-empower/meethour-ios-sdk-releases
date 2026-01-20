@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '13.1'
   s.swift_version    = '5'
 
+  s.frameworks = [ 'JavaScriptCore', 'AVFoundation', 'UIKit', 'Foundation']
+
   s.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermes.xcframework', 'Frameworks/GoogleMobileAds.xcframework'
   s.dependency 'Giphy', '2.2.12'
   
