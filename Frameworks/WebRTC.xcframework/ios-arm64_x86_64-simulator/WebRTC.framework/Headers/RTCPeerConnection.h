@@ -16,6 +16,7 @@
 @class RTC_OBJC_TYPE(RTCDataChannel);
 @class RTC_OBJC_TYPE(RTCDataChannelConfiguration);
 @class RTC_OBJC_TYPE(RTCIceCandidate);
+@class RTC_OBJC_TYPE(RTCIceCandidateErrorEvent);
 @class RTC_OBJC_TYPE(RTCMediaConstraints);
 @class RTC_OBJC_TYPE(RTCMediaStream);
 @class RTC_OBJC_TYPE(RTCMediaStreamTrack);
@@ -81,9 +82,8 @@ typedef NS_ENUM(NSInteger, RTCStatsOutputLevel) {
   RTCStatsOutputLevelDebug,
 };
 
-typedef void (^RTCCreateSessionDescriptionCompletionHandler)(RTC_OBJC_TYPE(RTCSessionDescription) *
-                                                                 _Nullable sdp,
-                                                             NSError *_Nullable error);
+typedef void (^RTCCreateSessionDescriptionCompletionHandler)(
+    RTC_OBJC_TYPE(RTCSessionDescription) *_Nullable sdp, NSError *_Nullable error);
 
 typedef void (^RTCSetSessionDescriptionCompletionHandler)(NSError *_Nullable error);
 
@@ -163,6 +163,10 @@ RTC_OBJC_EXPORT
             remoteCandidate:(RTC_OBJC_TYPE(RTCIceCandidate) *)remote
              lastReceivedMs:(int)lastDataReceivedMs
                changeReason:(NSString *)reason;
+
+/** Called when gathering of an ICE candidate failed. */
+- (void)peerConnection:(RTC_OBJC_TYPE(RTCPeerConnection) *)peerConnection
+    didFailToGatherIceCandidate:(RTC_OBJC_TYPE(RTCIceCandidateErrorEvent) *)event;
 
 @end
 

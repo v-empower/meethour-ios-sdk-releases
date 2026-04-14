@@ -6,7 +6,7 @@
 	<dict>
 		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
 		<data>
-		brS3dHavVJfU1xAqfZZ4NMbG0og=
+		Px7/LBsGObHoGE1VBxGJWA7XqrU=
 		</data>
 		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -16,17 +16,13 @@
 		<data>
 		qU7OsCaFMpm2j24h/zSvv3VMZGY=
 		</data>
-		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<key>ComodoRsaDomainValidationCA.der</key>
 		<data>
-		3lbyD5zl8Hcgr5N7PJzVMq1J5wk=
-		</data>
-		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		M5zdV8/VsUEWm2Ff8xQoeC0dpjk=
 		</data>
 		<key>GTMAppAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		0DdDwS05aXiSznGdublIrsSKhNo=
+		PLP3atfSlh7IWnIQ0yFUy5Dm4oQ=
 		</data>
 		<key>GTMAppAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -34,7 +30,7 @@
 		</data>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
 		<data>
-		u9JSEMx3LtmuquKf40l5RHWhFrQ=
+		Xo2CnYbwMsnzWZ4FzjdSYyyDOWY=
 		</data>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -42,7 +38,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		QHhLWn0QKhT64dOnL/MEqpkRhtY=
+		31roP8qnpCFws23WLzwyuXGIORs=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -50,7 +46,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<data>
-		QEvrtNzyMO1mEEyWAczWsnW+0Zk=
+		eJFV+WKrOlvBCkxDc6wiiQadqGA=
 		</data>
 		<key>GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -456,7 +452,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8jazVG/HuRDJa+ry7Mey/nsi0ck=
+		I3Rq8zGw0vgXDGk5ORtLag7A20w=
+		</data>
+		<key>Manrope-Bold.ttf</key>
+		<data>
+		28C4dK2LnzQV0Om04ikHiQynIyc=
+		</data>
+		<key>Manrope-ExtraBold.ttf</key>
+		<data>
+		3xMSCNXAj/eC+/EsJk9HPY2s2D4=
+		</data>
+		<key>Manrope-ExtraLight.ttf</key>
+		<data>
+		vHFCl2WdjW2YcULBGYffP+bwS04=
+		</data>
+		<key>Manrope-Light.ttf</key>
+		<data>
+		J9eJcDLcBhWs5sU/0pIQeuUygOU=
+		</data>
+		<key>Manrope-Medium.ttf</key>
+		<data>
+		teLGJl4JGRYxQruOrJtkUPuR+SA=
+		</data>
+		<key>Manrope-Regular.ttf</key>
+		<data>
+		PzbkkEpC0jJzrDRgR8G2vPBnzPw=
+		</data>
+		<key>Manrope-SemiBold.ttf</key>
+		<data>
+		96AjzWwQKy/6i/cpV5VSRFlw1i0=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -476,7 +500,7 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WLkcSW/4QhloWCbnuKwWTU3eqGw=
+		VUxy/2ORX7t/TI8AbdnUpv1CDfY=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -496,23 +520,15 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OG3SmbXeeKE6vnFmvigiV2kQKp0=
+		lvpFnFur1pD9hpJI+PijdDvaGRw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		NcjSChU6mZX9WsKOfukGPO1BOw0=
 		</data>
-		<key>Promises_Privacy.bundle/Info.plist</key>
-		<data>
-		IVSgILjF6SxFMlxif36+aFw1P1w=
-		</data>
-		<key>Promises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
-		</data>
 		<key>RCTI18nStrings.bundle/Info.plist</key>
 		<data>
-		jYkGbY4bMvXjwBvVIa1iQPJBATw=
+		JeBJXghDwGThQM8nggHtEWEvL6k=
 		</data>
 		<key>RCTI18nStrings.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1173,15 +1189,23 @@
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<data>
-		hFOXNaL8g/TE1ib3jNEJGEx10ak=
+		XjWNbVb+/BUv9/76d7sRvgD1t20=
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		sPDfyCwXVFwSP8cGRWRskpblWgM=
 		</data>
+		<key>RNImagePickerPrivacyInfo.bundle/Info.plist</key>
+		<data>
+		1mFcuC3OpIMNEj6wDW4de6jL9W4=
+		</data>
+		<key>RNImagePickerPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		6nz0Rfll858CIDce0fjtnCf/TYo=
+		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		OVSFmt1PZwxxbljrErreU7hNW40=
+		CiVyXoxbvkQCdPgXzoJL8UwKTXw=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1195,13 +1219,13 @@
 		<data>
 		34ZlX66tVsjue/mb6cIczASQ9+c=
 		</data>
+		<key>assets/images/MHLogo_square.png</key>
+		<data>
+		FrjzzSZ2xQ20v80htmgemZ87amI=
+		</data>
 		<key>assets/images/avatar.png</key>
 		<data>
-		SGvGLtnJSfwj7ao05qCDagZ9+zg=
-		</data>
-		<key>assets/images/btn_google_signin_dark_normal.png</key>
-		<data>
-		3rpCtCvcclx1PCSTsdYwxieThYk=
+		H4aW35cXqjjGXn2LM8rEtc7Z7e4=
 		</data>
 		<key>assets/images/dropboxLogo_square.png</key>
 		<data>
@@ -1211,17 +1235,13 @@
 		<data>
 		CyLXUKX959NDp2gWDR8QqJ65wt0=
 		</data>
-		<key>assets/images/jitsiLogo_square.png</key>
-		<data>
-		FrjzzSZ2xQ20v80htmgemZ87amI=
-		</data>
 		<key>assets/images/loading2.gif</key>
 		<data>
 		Qo9fl2x7aJotIriN3Sww10B8XYA=
 		</data>
 		<key>assets/images/logo.png</key>
 		<data>
-		FrjzzSZ2xQ20v80htmgemZ87amI=
+		2kpGgDxz2H7CNQfBovG9QideB2E=
 		</data>
 		<key>assets/images/privacy.png</key>
 		<data>
@@ -1235,6 +1255,70 @@
 		<data>
 		y74NOpkj+lKGr6M62Fg5+9LTUZ4=
 		</data>
+		<key>assets/images/virtual-background/bg-bookshelf-meethour-min.jpg</key>
+		<data>
+		u40pzdKO9xcR3zZl6SGMmJfzPtc=
+		</data>
+		<key>assets/images/virtual-background/bg-clock-meethour-min.jpg</key>
+		<data>
+		QfOtKCx+3WvEzUUR+e1VMZFXnMQ=
+		</data>
+		<key>assets/images/virtual-background/bg-conferencehall-meethour-min.jpg</key>
+		<data>
+		SOKGrwT2zq3TIojSD1pKUwNo9F8=
+		</data>
+		<key>assets/images/virtual-background/bg-cozy-meethour-min.jpg</key>
+		<data>
+		L2C7QvmQNz4oasaPtRl4CHVrrVQ=
+		</data>
+		<key>assets/images/virtual-background/bg-gamer-meethour-min.jpg</key>
+		<data>
+		Dn5Hy65xX5N0iFuzBecxpBsaauc=
+		</data>
+		<key>assets/images/virtual-background/bg-home-meethour-min.jpg</key>
+		<data>
+		Y2R64S8J9EFr6naPGhPBuvkg79Q=
+		</data>
+		<key>assets/images/virtual-background/bg-homie-kitchen-meethour.jpg</key>
+		<data>
+		ManathZQS73Y0LQCn5q13HOUAI8=
+		</data>
+		<key>assets/images/virtual-background/bg-homie2-meethour.jpg</key>
+		<data>
+		8vCDaGAVy327dRZvqmFo6uITdoY=
+		</data>
+		<key>assets/images/virtual-background/bg-hotel-room-meethour.jpg</key>
+		<data>
+		8jxBfFIu5ot0SuTSF+w2av4D7j0=
+		</data>
+		<key>assets/images/virtual-background/bg-leaturehall-meethour-min.jpg</key>
+		<data>
+		EfP7NTac6SIBSKeY14JzKlpcFv0=
+		</data>
+		<key>assets/images/virtual-background/bg-library-setup.jpg</key>
+		<data>
+		F2dyZ3z/ieac9Xlg5T9Pn42LxAw=
+		</data>
+		<key>assets/images/virtual-background/bg-nature-meethour-min.jpg</key>
+		<data>
+		qx4Mu8Ta8g1QQUg4H/X/mikC/NA=
+		</data>
+		<key>assets/images/virtual-background/bg-office-conference.jpg</key>
+		<data>
+		tDRgpiNc/UCqAJBGFI7ZcxoCcNQ=
+		</data>
+		<key>assets/images/virtual-background/bg-painting-meethour-min.jpg</key>
+		<data>
+		aUhEIfBREG+MxgZePZXzrC6I8VM=
+		</data>
+		<key>assets/images/virtual-background/bg-royal-meethour-min.jpg</key>
+		<data>
+		6P/2hb0GxNX8XMa2f7dHrq1zKMs=
+		</data>
+		<key>assets/images/virtual-background/bg-tedtalks.jpg</key>
+		<data>
+		tXRB9lWXCpc2YZf3MCdknWgTJKw=
+		</data>
 		<key>assets/images/watermark.png</key>
 		<data>
 		bkrx0+YWV9HwHLWnGpquKskjHwI=
@@ -1246,6 +1330,10 @@
 		<key>assets/static/assets/img/whiteboard.png</key>
 		<data>
 		cN6Q4Pv7kHcvi6972k7mgADN3xE=
+		</data>
+		<key>glog_privacy.bundle/Info.plist</key>
+		<data>
+		gCQeM0WjIT7+kWXsucL7ZtyiNyU=
 		</data>
 		<key>image-resize@2x.png</key>
 		<data>
@@ -1281,7 +1369,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		igaK80whPlnhAjckNceVkZpP5AE=
+		4QcWQT4KYosxGuvvvX1FzmdKlys=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -1342,7 +1430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J0uzhJ+xqZDZw9UJQ5xrijhjrTujQhfnH2Hpgjnba+M=
+			BDzaaTBgh3nbMCz6CDLd52/ZwGcbd9Cm8Tn/TZoB9p0=
 			</data>
 		</dict>
 		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1359,25 +1447,18 @@
 			vlGGlNTQbYekZxUcdQvF8AYVe85O+PiMDQRnuHRlTjw=
 			</data>
 		</dict>
-		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<key>ComodoRsaDomainValidationCA.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ouHXNK/uRPCrqZVUoJBpB7UvtK8Ug7xuGgPU3mZW2eM=
-			</data>
-		</dict>
-		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			AqtX5OZ6DLSN0v80gw6KxA9EdvsIymvj9c2Eb2RoQPA=
 			</data>
 		</dict>
 		<key>GTMAppAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mweSXtbeol6qCOdFjxwS+FKQep3OHdDEWQeHqjQSFM=
+			Uw4GXgl7LhVpm+va+KvdsmmPCzApJr+q0tx8XwcqyZQ=
 			</data>
 		</dict>
 		<key>GTMAppAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1391,7 +1472,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JpprQel63h76bqHuy6IY+xRfCO35I/Qa0Nlx5lPFxyY=
+			ftHE4IcnHXUtZbLJHrXSVC/t1BGg6jTNVBR48Vv+vc0=
 			</data>
 		</dict>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1405,7 +1486,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qIiu1WWp1qsAOKIRwbN+oJ0F0lF1XpVCUPk1GSqpo7U=
+			Y4aAFshRDJ1qvwY/jIobWz5xo/FovlQDujVTpuzmW18=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -1419,7 +1500,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DO4UPK0mnAOUBHVSJaxRl5Cu8e0T3LQv2WUD4ZBIR+Y=
+			wfu/78VH1QHAzLMbOIzLyhTJWB+5IhKfdciqmnpo1PA=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
@@ -1869,6 +1950,55 @@
 			BTMKygZNnSki1VOJLl131/yt/HqAkehzG35yLh6kakk=
 			</data>
 		</dict>
+		<key>Manrope-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Su1dGApPQe0h8H5nhIb4ibtA6w3fX0c3abYwL1B9HjY=
+			</data>
+		</dict>
+		<key>Manrope-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W+bZsh0jmBq1IPC/x4AMQ0ydCTRn7yS4WxaHfncJsDs=
+			</data>
+		</dict>
+		<key>Manrope-ExtraLight.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9YJUEgS9xotR3jwv5QuZ7CDDwDGWkhd8v0J3GZKaqRY=
+			</data>
+		</dict>
+		<key>Manrope-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2Ea/T/BCotn/JxCa6vZCKMlNiKts97pKxrrP8BjnPzQ=
+			</data>
+		</dict>
+		<key>Manrope-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iNP47wBLU0g6ICdy0JrKqxfKmd1BkF2bSrB6xjVjI3g=
+			</data>
+		</dict>
+		<key>Manrope-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y4O9n4HlbWETmITY5Cy3shRqEd3k795VyL/x5MLAu+g=
+			</data>
+		</dict>
+		<key>Manrope-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q776H1jHNVtmPBnyn/5M1/yMk6nl+LaPCNHpuivEug0=
+			</data>
+		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -1901,7 +2031,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rWXq+daH+bc8KxJNzzJOOyKq/eG4mGnTkAknSLxbZrM=
+			aDPkMwNq8psvE6geyO1nG15QySgKw4xHNdfxIFAXgy4=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1936,7 +2066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o7yDCqgIBPn3qb/orhMFFA8DfnhemurODo5mrWQxqnE=
+			5J9c8S0ti54e2uOLSKUn3bHC274edIiFT9jTZ4Mm4Hw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1946,25 +2076,11 @@
 			yPCotiaUuikEZ/4qqdZlkwiC1cLjvfUUfkEbfSUfhcg=
 			</data>
 		</dict>
-		<key>Promises_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SZRmndxVaV0Qu26Ox3rB5GmWiNzXhK0NM/AsBNjXfcA=
-			</data>
-		</dict>
-		<key>Promises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
-			</data>
-		</dict>
 		<key>RCTI18nStrings.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pgs4+lRa85OLlRZAGRz8Cd+7JdkZ7wP2dhXBOH4uIfw=
+			8/W4mjN4755rJywXB+vWgrtUl/UgK/gSWyLaZmmN8NE=
 			</data>
 		</dict>
 		<key>RCTI18nStrings.bundle/ar.lproj/Localizable.strings</key>
@@ -2628,7 +2744,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6YHYwxlaYKsdh3lk0P4TPXYofH7XC0ukhxojOHSDzYE=
+			WEZnjReEgAtS9Sz052JJfGitxQq/5F11SSSgjR0VmHc=
 			</data>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
@@ -2638,11 +2754,25 @@
 			CxKH0OaGz4Z9ONl8yl3GlLMCnyfE/kJw3UvS/VRYovA=
 			</data>
 		</dict>
+		<key>RNImagePickerPrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a63+FpVAu98AuCbaNuKKXhrah+Qaxb42RF998V452Hk=
+			</data>
+		</dict>
+		<key>RNImagePickerPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M8KUfxZScv94juAbDXWMlhWxCn65Sxan3IqlDpFX/YQ=
+			</data>
+		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9t3N3D2ahbs55EWoM2+c3NFEc+50beuUqxYHswLLT6M=
+			MLCL8OOegu00RMDJMMZtHxknd1oh/VS9GTHeSsrQqso=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -2666,18 +2796,18 @@
 			/OdoA0mz7LY+6ZmdFy/MiNF6UDdKCACryxap0Xd3uDU=
 			</data>
 		</dict>
+		<key>assets/images/MHLogo_square.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5wnsqUUrt8SEXwxztDi3Lxm/PBDOIBLQkRLaV8FvFCs=
+			</data>
+		</dict>
 		<key>assets/images/avatar.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cp4O5BjogRzrnD4FoFk0J6fiIC87fhSF7Geszbaeyu0=
-			</data>
-		</dict>
-		<key>assets/images/btn_google_signin_dark_normal.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UBPHZJx1ZtvQUmCenwE+qGsydWR/FhB84X5G82tTSJw=
+			clsNDJwjgM+KaMzyFm1FHiYTK4drfJpntEYEiAHBTBw=
 			</data>
 		</dict>
 		<key>assets/images/dropboxLogo_square.png</key>
@@ -2694,13 +2824,6 @@
 			S2cpA02WdwPwBUujLo3o+CbLgnZR7CgGI8+5gyCFkxg=
 			</data>
 		</dict>
-		<key>assets/images/jitsiLogo_square.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5wnsqUUrt8SEXwxztDi3Lxm/PBDOIBLQkRLaV8FvFCs=
-			</data>
-		</dict>
 		<key>assets/images/loading2.gif</key>
 		<dict>
 			<key>hash2</key>
@@ -2712,7 +2835,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5wnsqUUrt8SEXwxztDi3Lxm/PBDOIBLQkRLaV8FvFCs=
+			yRQRPWCesuAdT2Jcow5Lf5AvLOZuaLBgZKb4YHRVhhw=
 			</data>
 		</dict>
 		<key>assets/images/privacy.png</key>
@@ -2736,6 +2859,118 @@
 			T7VGhgOwZn08ZBK4K1E2nIU4FR0IqqiehzYCyBUVPDw=
 			</data>
 		</dict>
+		<key>assets/images/virtual-background/bg-bookshelf-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1iBtSmgTGRO7u4/n5jUe2hIRmwpKGP0t/QiEp95aVTc=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-clock-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vrv8GbXejS8HBQ6jEpUSh36s6uLF9qkCYxZM8Q8qLlo=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-conferencehall-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t85YyAslHV+zDCAvLnH2OgaRtrxwITvaa6rbc84I+Mw=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-cozy-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i8y7GUICsE5LQIwDkYAgc9mIMwzyQiZYuC8aMjYOOSk=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-gamer-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UbdYM7oPir6qLJt69RDgkV+2CnAQw8QJpPvOUgILnlI=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-home-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dcB6AmxpmCDCdtnHI54Qlbwt953FYZVVaWQ2lq+YWrE=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-homie-kitchen-meethour.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zW/JUuGuYzcB3M15l8SQUV1uG8uwIeZ4GkMYGUaQwrs=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-homie2-meethour.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DIU4GFcEYm2ksOOuDsmkbUacJ2xEZAqOeVEegM2nCC4=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-hotel-room-meethour.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			exOxaJAJH9fhBEwTGpQNm2HnsZUIC6Z4l3ZO811G7J4=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-leaturehall-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ehCCuP4AYVKPONSSLGeQYJ/aVYC4/LDpIt+MHd7iPbA=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-library-setup.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bq1mS81djWCH1sH58kJF73W3z+JGFmR3dtZV7iwjhtE=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-nature-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1/7NYTXdRW/VkIQYYrbDXpnAAwSnfGm1Xy/Srui8JcQ=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-office-conference.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y7O3EcGwoBzARDT/Ki/KtiBXfj4y60WuDow1YNKWX50=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-painting-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qEP63iT3DSkBFy4edASX//uMBcf7Gnkif8rUbAZ9o9g=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-royal-meethour-min.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r3uWvIg18Mdiv8d/Zfj7v1mlnxuPCt3mAK28qYPCnMQ=
+			</data>
+		</dict>
+		<key>assets/images/virtual-background/bg-tedtalks.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zzKycJDv1G1I5VPtnChlJVcbew3Z89kRYANUqQ09CMI=
+			</data>
+		</dict>
 		<key>assets/images/watermark.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2755,6 +2990,13 @@
 			<key>hash2</key>
 			<data>
 			wWNpWSMqbSIfc1dqlMT7skW8Vjx3j/JtMR/i7KBehiA=
+			</data>
+		</dict>
+		<key>glog_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LrTv3WxyV3n4BEau5q2zslVUZsO5rzWaYOE9+jaoMPY=
 			</data>
 		</dict>
 		<key>image-resize@2x.png</key>
@@ -2817,7 +3059,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WLgzzNNHtaZvDekI/sRZGJ0p2gfWcCvQEMJkg1wbbaU=
+			QJtf9c2X7bFrEJ8eyBWpJLVpqCM4Nkl2FDCIOFI7lKU=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>
