@@ -13,19 +13,13 @@ Pod::Spec.new do |s|
 
   s.frameworks = [ 'JavaScriptCore', 'AVFoundation', 'UIKit', 'Foundation']
   s.default_subspecs = 'Native'
-
   s.subspec 'Native' do |ss|
-    ss.summary = 'Meet Hour SDK for native and Flutter hosts'
-    ss.description = 'Includes the React runtime frameworks so Objective-C, Swift, and Flutter hosts can consume the SDK independently.'
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework', 'Frameworks/React.xcframework', 'Frameworks/ReactNativeDependencies.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end
 
   s.subspec 'React' do |ss|
-    ss.summary = 'Meet Hour SDK for React Native hosts'
-    ss.description = 'Does not vend the React runtime frameworks. React Native hosts must provide React via their own pod dependencies.'
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework'
-    ss.dependency 'React'
     ss.dependency 'Giphy', '2.2.12'
   end
 end

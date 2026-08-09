@@ -14,18 +14,25 @@ Pod::Spec.new do |s|
   s.frameworks = [ 'JavaScriptCore', 'AVFoundation', 'UIKit', 'Foundation']
   s.default_subspecs = 'Native'
 
+  # NOTE: `summary` and `description` are root-spec-only attributes. Setting
+  # them on a subspec fails `pod lib lint` / `pod trunk push` with
+  # "Can't set `summary` attribute for subspecs", so the per-subspec notes
+  # live in comments instead.
+
+  # For native hosts: Objective-C, Swift and Flutter. Includes the React
+  # runtime frameworks so the SDK is self-contained -- these hosts have no
+  # React Native of their own to link against.
   s.subspec 'Native' do |ss|
-    ss.summary = 'Meet Hour SDK for native and Flutter hosts'
-    ss.description = 'Includes the React runtime frameworks so Objective-C, Swift, and Flutter hosts can consume the SDK independently.'
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework', 'Frameworks/React.xcframework', 'Frameworks/ReactNativeDependencies.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end
 
+  # For React Native hosts. Deliberately does NOT vend the React runtime
+  # frameworks: the host app already has React Native, and a second copy in
+  # the same process collides class-for-class and crashes at startup. The
+  # host supplies React through its own pod dependencies.
   s.subspec 'React' do |ss|
-    ss.summary = 'Meet Hour SDK for React Native hosts'
-    ss.description = 'Does not vend the React runtime frameworks. React Native hosts must provide React via their own pod dependencies.'
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework'
-    ss.dependency 'React'
     ss.dependency 'Giphy', '2.2.12'
   end
 end
