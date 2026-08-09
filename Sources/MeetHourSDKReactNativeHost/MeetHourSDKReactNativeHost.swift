@@ -14,7 +14,7 @@
 
 public enum MeetHourSDKReactNativeHostPackage {
     /// Version of the binary artifacts this package resolves to.
-    public static let version = "5.0.15"
+    public static let version = "5.0.167"
 
     /// Whether the resolved product bundles the React Native runtime.
     /// True for `MeetHourSDK`, false for `MeetHourSDK-ReactNativeHost`.
