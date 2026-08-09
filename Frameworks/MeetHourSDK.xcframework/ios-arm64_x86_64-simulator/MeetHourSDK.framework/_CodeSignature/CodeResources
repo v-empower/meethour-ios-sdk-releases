@@ -6,7 +6,7 @@
 	<dict>
 		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
 		<data>
-		Px7/LBsGObHoGE1VBxGJWA7XqrU=
+		ekzArf7KrRpMbKTPvL4FpIYr/rc=
 		</data>
 		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GTMAppAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		PLP3atfSlh7IWnIQ0yFUy5Dm4oQ=
+		MRqYAwH+mFG9MnLrqgTnKsJ1Z7M=
 		</data>
 		<key>GTMAppAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
 		<data>
-		Xo2CnYbwMsnzWZ4FzjdSYyyDOWY=
+		D4aRoSsVAns8tL9lOejrdIhqEWg=
 		</data>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		31roP8qnpCFws23WLzwyuXGIORs=
+		lOheRCkA/oEEU8RoxW2U9uZXCPI=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<data>
-		eJFV+WKrOlvBCkxDc6wiiQadqGA=
+		ANZ6bViBKJyltV9ftLt+JUhAqE4=
 		</data>
 		<key>GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -424,7 +424,7 @@
 		</data>
 		<key>Headers/MeetHourConferenceOptions.h</key>
 		<data>
-		gl3FNzI/kNes5B5Pzi9sOpjLQ6o=
+		fYhWKBYcQmdFicxKuIL8nAy/Upk=
 		</data>
 		<key>Headers/MeetHourLogger.h</key>
 		<data>
@@ -432,7 +432,7 @@
 		</data>
 		<key>Headers/MeetHourSDK-Swift.h</key>
 		<data>
-		VIK0B4OmUREGsE9zjfJeOiwJk5k=
+		LKLvOSC8xK5vmzsnFoOwFRX2svE=
 		</data>
 		<key>Headers/MeetHourSDK.h</key>
 		<data>
@@ -452,7 +452,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rgmi5WHxz23azomfky+g4rCeZ7k=
+		HHxCgy4Z0Pr93YNilKW+KMaO3aI=
+		</data>
+		<key>MSAL.bundle/Info.plist</key>
+		<data>
+		j4GmE55qPKLuYfVQCgSPrTnfDNE=
+		</data>
+		<key>MSAL.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		u92velI0cAss3mhXj82HO5cXWr0=
 		</data>
 		<key>Manrope-Bold.ttf</key>
 		<data>
@@ -484,712 +492,51 @@
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ndY6qOXuQHe30xR48IQZ14oHhnw=
+		FHV56cQJnK533XXv0wVDnjhpOgk=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KNDtK02kObLGXxi4snH4kKsZlHw=
+		2cRtbOzdwxB/+u8cl6hXr9Vq1gY=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gaLHrHYmA87h8C6wjaBkRv+airg=
+		8vJw9Kfpv+xmUlpIAS2R94w6GHM=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KNDtK02kObLGXxi4snH4kKsZlHw=
+		2cRtbOzdwxB/+u8cl6hXr9Vq1gY=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VUxy/2ORX7t/TI8AbdnUpv1CDfY=
+		tRWDZmqO/xOfjGq0N7+ZO+JqLB4=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ndY6qOXuQHe30xR48IQZ14oHhnw=
+		FHV56cQJnK533XXv0wVDnjhpOgk=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		byUoFEu7ndY6rX6QZp9SzFsKMXo=
+		DTYfek7jtiWEoTJAXu93ErElrUQ=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PwBr9NzfqE6uH9JAdqgGEkWC8bU=
+		sj4+D93BqPGmrvi+qEG8B0rngug=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		byUoFEu7ndY6rX6QZp9SzFsKMXo=
+		DTYfek7jtiWEoTJAXu93ErElrUQ=
 		</data>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lvpFnFur1pD9hpJI+PijdDvaGRw=
+		NgNH62VXrAM2dnsDHSSUrOKg6Gc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		NcjSChU6mZX9WsKOfukGPO1BOw0=
+		A9FbiQmYYdfzn9HLL7wOr+/EMDg=
 		</data>
-		<key>RCTI18nStrings.bundle/Info.plist</key>
-		<data>
-		JeBJXghDwGThQM8nggHtEWEvL6k=
-		</data>
-		<key>RCTI18nStrings.bundle/ar.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ar.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			su97uRlw3KIG2UdvMzb9JBQWC50=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/cs.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/cs.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xVxMsw30raSwzyhCmnlLvNIn+jI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/da.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/da.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rXwWPecy/AMbo7TaI+GT6yH8LTg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/de.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EshLwQQUe0M14CQheb+GTay3KZ8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/el.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/el.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FGsxQg2WUXB5lZIUTOMpHhho228=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/en-GB.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/en-GB.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			in5agBxCp92GJVc5oGhs0kPlZ4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es-ES.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es-ES.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lcwcGMpzBwNwQN5v8022Mn+YoWM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uCIKwlbhk1jegWwl1gfWiluSbpo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fi.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			txSqr8+iD5NWmeSH6qMmMu18D4g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fr.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P8EtIqDd/0bwcNVXTuet4VHRKDk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/he.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/he.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KVHZ6VVhLsBcSvH+hEwemwXEG5U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hi.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xs940dmcuVfs1sWnqLWuxc7yiR4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hr.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z/aPbiYmkZCsu8qCLpt40YJEJnI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hu.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1VJEy9aT53Hv50v4j8gC+rUQQlM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/id.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/id.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			J2BP77CdZita3Tcew/3z1l/IwWM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/it.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/it.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Gc6S8JvagmukY3kWgM4av4EBjpQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ja.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TqMfWsEg0MF0pbsAX1ayRelaZkw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ko.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			COlQR5x5OtrX4ixS6S0/vREmi6g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ms.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ms.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FJHpmYuPHY1Sj3wG1C2OHuU6QXA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nb.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nb.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o8EnVBqK+K4HN5bJGIgtXEXeh7Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nl.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JP4p3KrlWuukIPbD5lUCW3ppevQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pl.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			058RzqiET2dbZ4xCEgVGdvS1pLE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt-PT.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt-PT.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XO6HsQx5Z/2AGMo5RpI63pRXkZ8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Vslpw9A3jvSfBvXroxqk3V0v74s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ro.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ro.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ugpM/3OVZ2ReEV3jjb2lSM9bdYY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ru.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bUxpwO7GDJ6y7R1zCQWIo221TMc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sk.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sk.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mPS7EcOP5LchssqhuFsRRfqQ0F8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sv.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sv.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gmqSeZuagvPMOvGttmHMKk+GTZ8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/th.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/th.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			83wFaQi39ZBVCvewWAHefAew9QY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/tr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/tr.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wkQts0edxU9DL32vSiQaeZOTHac=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/uk.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/uk.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UToKZwopOHGaCdhCJ79p5P+xxrg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/vi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/vi.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QT6cHT6S2eVvi6wzDzpikkVq1rU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hans.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Km5Q0DaK5Ta5A2L+p5BkPvjVd/g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant-HK.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant-HK.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QOVL7Dc5x7NjAISOoaMaY5GCxpI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FUH+m7WunD8E5LtF15UnBI2SPDs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3BrTP2K7266d41H+cfmCEJZuQsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zu.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cy7XB1vksjpCicEoitQ4eBalNcc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<data>
-		XjWNbVb+/BUv9/76d7sRvgD1t20=
+		HmrMn26slC1ew506dfknD4m68iQ=
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1197,15 +544,43 @@
 		</data>
 		<key>RNImagePickerPrivacyInfo.bundle/Info.plist</key>
 		<data>
-		1mFcuC3OpIMNEj6wDW4de6jL9W4=
+		qhZmZXSeq3tjH8I4oauxS2CsNPY=
 		</data>
 		<key>RNImagePickerPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		6nz0Rfll858CIDce0fjtnCf/TYo=
 		</data>
+		<key>RNSVGFilters.bundle/Info.plist</key>
+		<data>
+		kgDOiiyHhPE/VXk6ebyVzHARV9U=
+		</data>
+		<key>RNSVGFilters.bundle/RNSVGArithmeticFilter.iphoneos.metallib</key>
+		<data>
+		+VLexPzHghS5+wGZ2o3Pb4hzkK4=
+		</data>
+		<key>RNSVGFilters.bundle/RNSVGCompositeXor.iphoneos.metallib</key>
+		<data>
+		uBh9rD7P0EEOLBtlduH9X3cREsM=
+		</data>
+		<key>React-Core_privacy.bundle/Info.plist</key>
+		<data>
+		+t00uQdIc3jptSj2+yZJ+Htq70s=
+		</data>
+		<key>React-Core_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZahcOiTSEcJJdvNh0xqgAKPqbMs=
+		</data>
+		<key>React-cxxreact_privacy.bundle/Info.plist</key>
+		<data>
+		XjZh0p0ERgiIxxraotQPIh5pitw=
+		</data>
+		<key>React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		dxJQFdQ77efnBkB0VBZmuIamJ4g=
+		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		CiVyXoxbvkQCdPgXzoJL8UwKTXw=
+		72oo/x1SPzH/uCt6KyfB9Qxbp8I=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1227,6 +602,14 @@
 		<data>
 		H4aW35cXqjjGXn2LM8rEtc7Z7e4=
 		</data>
+		<key>assets/images/aws_logo.png</key>
+		<data>
+		Czy6uHrUD+hQ1exvF/hW539cWrU=
+		</data>
+		<key>assets/images/clickandpledge/givent_logo_1.png</key>
+		<data>
+		C7a3CoGcZ4hlZ/JpyWv9JGnp5j8=
+		</data>
 		<key>assets/images/dropboxLogo_square.png</key>
 		<data>
 		CpA6KqkYDFKrAZWsyx7YlMrKAeg=
@@ -1239,9 +622,9 @@
 		<data>
 		Qo9fl2x7aJotIriN3Sww10B8XYA=
 		</data>
-		<key>assets/images/logo.png</key>
+		<key>assets/images/onedrivelogo.png</key>
 		<data>
-		2kpGgDxz2H7CNQfBovG9QideB2E=
+		aS0AdQXvqS8RlDIRHwrQI+IOMHI=
 		</data>
 		<key>assets/images/privacy.png</key>
 		<data>
@@ -1331,10 +714,6 @@
 		<data>
 		cN6Q4Pv7kHcvi6972k7mgADN3xE=
 		</data>
-		<key>glog_privacy.bundle/Info.plist</key>
-		<data>
-		gCQeM0WjIT7+kWXsucL7ZtyiNyU=
-		</data>
 		<key>image-resize@2x.png</key>
 		<data>
 		fpJVwJDMfzGKpCkKXn6v05rCfqY=
@@ -1369,7 +748,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		ih+rUVmmnFheqa51p1JKKq1VNMk=
+		Ln159khbMcwYOnjaNVCAqb584r8=
 		</data>
 		<key>meet-hour-waiting.mp3</key>
 		<data>
@@ -1430,7 +809,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDzaaTBgh3nbMCz6CDLd52/ZwGcbd9Cm8Tn/TZoB9p0=
+			88WrA4Hd8d09TI0Yn5GU1TunD7i0EtRY4C/CT5Z3PCc=
 			</data>
 		</dict>
 		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1458,7 +837,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uw4GXgl7LhVpm+va+KvdsmmPCzApJr+q0tx8XwcqyZQ=
+			kQYx4IbKlS/A2+OaB9U6+7HS8JYEc1cbz739nrpEYAg=
 			</data>
 		</dict>
 		<key>GTMAppAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1472,7 +851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ftHE4IcnHXUtZbLJHrXSVC/t1BGg6jTNVBR48Vv+vc0=
+			JxwblH8nuNHFjfgCDXpLEzJGSP+CEAZb1t2BrWli41U=
 			</data>
 		</dict>
 		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1486,7 +865,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y4aAFshRDJ1qvwY/jIobWz5xo/FovlQDujVTpuzmW18=
+			8ZiOPtGU1kKZxvANPv84ax6aZo91ZOTGWpE410iwgM8=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -1500,7 +879,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wfu/78VH1QHAzLMbOIzLyhTJWB+5IhKfdciqmnpo1PA=
+			gBZUOqIjh9HuolevaDalFUsBmPwt5PjL1EEWXvtWRNA=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
@@ -1905,7 +1284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjJ/vqol0W1UFB/sVB6ywPveMq1KZzqkqerLrboVwOk=
+			ijvN6Wc1I5GfdwTZu+m2soF2hfHGbz0NtpV50qABguY=
 			</data>
 		</dict>
 		<key>Headers/MeetHourLogger.h</key>
@@ -1919,7 +1298,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ASCkA/MOb5J4xv4GXe4PNk40T90V+8HnF6UOOMfWWs=
+			TcX/vJ1g9DYVi2D9q/wsFg/4+/H6+5HTHR1zUH8Hz18=
 			</data>
 		</dict>
 		<key>Headers/MeetHourSDK.h</key>
@@ -1948,6 +1327,20 @@
 			<key>hash2</key>
 			<data>
 			BTMKygZNnSki1VOJLl131/yt/HqAkehzG35yLh6kakk=
+			</data>
+		</dict>
+		<key>MSAL.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8svgk8HdF7a6JcPptgR4dlF8qSaJi+Ti8sJjydowGXk=
+			</data>
+		</dict>
+		<key>MSAL.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vv6mmEbWgU+7bU5BDlYx7qFA6HMno1++V2jeXmAvm+k=
 			</data>
 		</dict>
 		<key>Manrope-Bold.ttf</key>
@@ -2003,748 +1396,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Sfs3yK9nxYuE3yUEYa0ped/sSHq1KLGxwkswPxMUPs=
+			DRhZoyxLXJM6dA6wrGMyyfuteKBtzPFjOP9zXmxbopY=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0ZgPMPD4SdYc7Iw1FI3k0JIqIYG/ebyWx0YMkaI/FY=
+			wLRpUQ9++waEFAuzg0v4dfAnYqsIAis2IHXW1bRqHn0=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hJL45towhDk1A0+zYNoaHIfNttB8BJt51iGyDOK/WKg=
+			eGs2Mmo3YuFqZb6ibzFBABVmX2yEOpQfB4376RV4djM=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0ZgPMPD4SdYc7Iw1FI3k0JIqIYG/ebyWx0YMkaI/FY=
+			wLRpUQ9++waEFAuzg0v4dfAnYqsIAis2IHXW1bRqHn0=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aDPkMwNq8psvE6geyO1nG15QySgKw4xHNdfxIFAXgy4=
+			lo5KbBGEWb6840fq2LufUzmKgz0nBG2r6VwTCjbzS0Y=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Sfs3yK9nxYuE3yUEYa0ped/sSHq1KLGxwkswPxMUPs=
+			DRhZoyxLXJM6dA6wrGMyyfuteKBtzPFjOP9zXmxbopY=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ugovwg8HdlvPTOmRzR402+ovmOBS8n9I96JnDFCMmt8=
+			dw+hEMBVO6XFdn/zduWGEVQs9VVrBZpFlGT5DIsbAGk=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwkfl35DxfvH22qff1Wrv/aBgNqalgtj0LRz6QjxUJM=
+			cJEab5rIz9GEOToHM38c8I2We070XzD5ZV81gEE8jK4=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ugovwg8HdlvPTOmRzR402+ovmOBS8n9I96JnDFCMmt8=
+			dw+hEMBVO6XFdn/zduWGEVQs9VVrBZpFlGT5DIsbAGk=
 			</data>
 		</dict>
 		<key>Modules/MeetHourSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5J9c8S0ti54e2uOLSKUn3bHC274edIiFT9jTZ4Mm4Hw=
+			dxKTt1D2fieDogDJP4uPz6Vm1guPIbM8F0CzkbFyVrQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yPCotiaUuikEZ/4qqdZlkwiC1cLjvfUUfkEbfSUfhcg=
+			i8nM6JP08f2y3MNjeqYz3cNAlR3GZOnRXhLqqbLhq4Y=
 			</data>
-		</dict>
-		<key>RCTI18nStrings.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8/W4mjN4755rJywXB+vWgrtUl/UgK/gSWyLaZmmN8NE=
-			</data>
-		</dict>
-		<key>RCTI18nStrings.bundle/ar.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ar.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hoxxL57/jPLiQWQFx2BGmPwlvlMgudbLFJGhY7rH7+s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/cs.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/cs.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nzUezKBswk8EfaBflZDcpVTxEFNdTISYBoUh3MiJZj0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/da.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/da.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wpAg6XHhAM9ukspRYQ7inf67nevjYQJr0mqnNNnh6Hw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/de.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZbiWhJJOEIazVWpJjBIotnbcy/5ZCkAuDrgVdWx9Ytc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/el.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/el.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K9xR+3adTopH1tpn3Bvudd0tS0Wf92eOKjnAHfPvJLA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/en-GB.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/en-GB.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V8i0eBWqovo+8OzNNj9S7gdtgWG6XrC0lHtncq6vI0g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es-ES.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es-ES.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0DKc/e2TOtsIbkC2YJCVoCqzDneoVBDJ9pgDSSXroNc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/es.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J5xT1niRjKCZseryQ7jtkc9Q8/qeJhFTvtKJbDvsGP4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fi.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tFX+1wGr+ixgUjsRsGrqWlWYIA4zTJ1uVMeaFVJ+Fuw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/fr.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7qbnPP8QEoq15QFbNTfljlFt2UXRHKowIuudmev/N4o=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/he.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/he.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CzOwWG0qfo7C+jczfKwDfhanzkyHRZCU3gQxHhu7OfM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hi.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NVLtpXY/FcYNIkbBKJk7kZcZF5EkV0mye5dMM2H0ZwY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hr.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sYvhRuO4rtpnY1oN6fZm09ZcSmi8QkD6XtD49tjcQY0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/hu.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N7hGUE3ryEdhXqjj/urCy+icXEutU6dMYa9hQ1IYf64=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/id.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/id.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D6fBs0nHtXdwAYMXVF+CIsCUCBkIRHh77IIg4965EYs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/it.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/it.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WnoqmAzBtYPFDPC0DNZ8e5GHeeisO/0cFC68OekxjEI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ja.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q3qYJUJ77i6Ilizt9FzlcAh0xmYZ+MycJtBCBzxSYPQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ko.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3TmwbDW1DZVs5k59w2Ul/PJq8LGnjHkJp12JEgrKTNc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ms.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ms.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FJ80Th0azCbs9MC2OlJjEQ2XWyuuOQpDiuhwALIZLo8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nb.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nb.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WARVMfYcaATOlaiCUUAem2pkwn0De2UwDwt37oSECNs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/nl.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yL2nRb+zMSQVggiJWAUttFFh7ou3WpddK5GXZtRCpjc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pl.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RzKe0D52gYHtsw/mps3rjYNPvhSi+ss80LW+7w2BeiI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt-PT.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt-PT.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EO6Pk3cUX9gLvuEmGMl9lvnSYMFL1ILtNLKKLSNSgL8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/pt.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ucL6MfaIrg90s2hgbunxay7Knk43skk9dvWzO0XCsvU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ro.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ro.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SiVbflWJvrq+Ke25uWFEGIt7MCYw17VA8nw/bCzk1tE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/ru.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			a46r/ZsIfQ0gPt/GYSr82qpNkdxcOG8PA3vl0a6vRgA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sk.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sk.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T3Fg8H6qceWI63s5pkl7JjJUp8wFGhonR/5GlhHXbFA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sv.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/sv.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0vX2ygGFdygRC83YrtoPpeiuOpQOXhbFc9HlXyjqwsk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/th.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/th.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cm7yJuEe/k+xNLcHSKCdp51H2jIwS8bG4b3ermXasiU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/tr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/tr.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aL8iA7Zrmh/P+Wlh4uJNOdFR9O5pJ5et52y0Q//Why8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/uk.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/uk.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0Oww2z+FTITR5djhCJqLT24YAiTXfsoVOnFGG96HA5E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/vi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/vi.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x0f4+X75AHdm9KgrQvmg+ZD/gH5vY/6yetWgc0+RgVY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hans.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5kpcRD53iT8kL9NIY+MsnoGRJ+862nLvNPOItnPIMH0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant-HK.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant-HK.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X1mieg+nZcbH00EL3X1ijq10e3Cq0r1yL45pQO/uGFQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zh-Hant.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Kg/6Rzk1cQNOWe4fdKlmcCBz/VaZ3vatXkfjl1vZdtI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xueDJMOlsOp2ZpAbA8qzEdLkYQdppdp7fb2u+5NIgmE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>RCTI18nStrings.bundle/zu.lproj/fbt_language_pack.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K0jZq3TuBHiMnI+PGpkCuMtmpCaItl2WiezT+tQ/T/U=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WEZnjReEgAtS9Sz052JJfGitxQq/5F11SSSgjR0VmHc=
+			eImdL7mVzk+3yvLRxjZSANPg1BcB32+HS4pbeyF3fDg=
 			</data>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
@@ -2758,7 +1487,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a63+FpVAu98AuCbaNuKKXhrah+Qaxb42RF998V452Hk=
+			mAkak4F0Meoujf7HNA/J6zpbep1Cy7D8/k0CnWGOcjg=
 			</data>
 		</dict>
 		<key>RNImagePickerPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -2768,11 +1497,60 @@
 			M8KUfxZScv94juAbDXWMlhWxCn65Sxan3IqlDpFX/YQ=
 			</data>
 		</dict>
+		<key>RNSVGFilters.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k4jHNvhtmJ8rJWQ4h+Q5NCgWZ4xHoIc9qRKR7skhXWA=
+			</data>
+		</dict>
+		<key>RNSVGFilters.bundle/RNSVGArithmeticFilter.iphoneos.metallib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aRRl/fIr4pQqkGSCmYRAyw0/aGOTcpNrit0zlcC0Dtk=
+			</data>
+		</dict>
+		<key>RNSVGFilters.bundle/RNSVGCompositeXor.iphoneos.metallib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IjeoZNeITsXaqYQpPXdb5hrqaJk+s2Qqy5e5V5lT//I=
+			</data>
+		</dict>
+		<key>React-Core_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hb1s1a+HPGFP9W0nI8Po4bIonJWONYfD1cl6/V68teA=
+			</data>
+		</dict>
+		<key>React-Core_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fAiWnkWWIabs7AQ8zbkBJlHxhYEZRfdVF8Yj2uLhFic=
+			</data>
+		</dict>
+		<key>React-cxxreact_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qkuTdRbxVp4WiSinGEJ57vj7b1mWHnsJ0YolzcrsIOg=
+			</data>
+		</dict>
+		<key>React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BYfRVcVqb08GR+vGtqC9AmYVzWEO6PIJqXhrealq0zU=
+			</data>
+		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MLCL8OOegu00RMDJMMZtHxknd1oh/VS9GTHeSsrQqso=
+			vGPp73SjMfripQkqHYZlqbPhgo6qfge3v3S7W5+5zR8=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -2810,6 +1588,20 @@
 			clsNDJwjgM+KaMzyFm1FHiYTK4drfJpntEYEiAHBTBw=
 			</data>
 		</dict>
+		<key>assets/images/aws_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AhUdJRMSFJSPkejT6uF6SS2f3WyedDgTMN4vPsOb7ug=
+			</data>
+		</dict>
+		<key>assets/images/clickandpledge/givent_logo_1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pzeCu6pwjkdWir5oXutLF33gaAb20xzLlYzE2s16iYs=
+			</data>
+		</dict>
 		<key>assets/images/dropboxLogo_square.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2831,11 +1623,11 @@
 			oJIkwpQcftKY7n82qZlu4Nqe1JXF1cPtZ3b2coLv8WE=
 			</data>
 		</dict>
-		<key>assets/images/logo.png</key>
+		<key>assets/images/onedrivelogo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRQRPWCesuAdT2Jcow5Lf5AvLOZuaLBgZKb4YHRVhhw=
+			zMX/LukVGRnjFNLWOyB1cTFWQajmh5UEvgBp4BgfC/0=
 			</data>
 		</dict>
 		<key>assets/images/privacy.png</key>
@@ -2992,13 +1784,6 @@
 			wWNpWSMqbSIfc1dqlMT7skW8Vjx3j/JtMR/i7KBehiA=
 			</data>
 		</dict>
-		<key>glog_privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LrTv3WxyV3n4BEau5q2zslVUZsO5rzWaYOE9+jaoMPY=
-			</data>
-		</dict>
 		<key>image-resize@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -3059,7 +1844,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kUfmSB8oSG9GG+8/40ktvrVgnzkPhNjuXOyHZygyo70=
+			UjbSeCSHIcNAXzuGm2+8GzhTQUtf5STmhzWWw8N1808=
 			</data>
 		</dict>
 		<key>meet-hour-waiting.mp3</key>

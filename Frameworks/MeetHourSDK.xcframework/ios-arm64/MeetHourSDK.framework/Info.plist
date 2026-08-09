@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>25D2128</string>
+	<string>25F84</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.0.14</string>
+	<string>5.0.17</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneOS</string>
@@ -29,25 +29,31 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>23C53</string>
+	<string>23F81a</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTPlatformVersion</key>
-	<string>26.2</string>
+	<string>26.5</string>
 	<key>DTSDKBuild</key>
-	<string>23C53</string>
+	<string>23F81a</string>
 	<key>DTSDKName</key>
-	<string>iphoneos26.2</string>
+	<string>iphoneos26.5</string>
 	<key>DTXcode</key>
-	<string>2620</string>
+	<string>2660</string>
 	<key>DTXcodeBuild</key>
-	<string>17C52</string>
+	<string>17F113</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-5885538074079594~1219458923</string>
 	<key>MinimumOSVersion</key>
-	<string>12.1</string>
+	<string>15.1</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs calendar access to create events.</string>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>This app needs calendar access to create events.</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>RCTNewArchEnabled</key>
+	<true/>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

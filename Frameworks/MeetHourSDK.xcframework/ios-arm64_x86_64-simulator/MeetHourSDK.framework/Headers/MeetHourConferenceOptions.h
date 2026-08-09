@@ -68,6 +68,11 @@
 @property (nonatomic) BOOL prejoinPageEnabled;
 
 /*
+* To set up branded url
+*/
+@property (nonatomic, copy, nullable) NSString *brandedURLForInvite;
+
+/*
 * To disable Invite Functions in Mobile. Set to true if you want to disable the invite function.
 */
 @property (nonatomic) BOOL disableInviteFunctions;
@@ -115,6 +120,8 @@
 @property (nonatomic, readonly) BOOL videoMuted;
 
 @property (nonatomic, readonly) BOOL prejoinPageEnabled;
+
+@property (nonatomic, readonly) NSString * _Nullable brandedURLForInvite;
 
 @property (nonatomic, readonly) BOOL disableInviteFunctions;
 

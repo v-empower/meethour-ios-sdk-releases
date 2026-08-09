@@ -14,6 +14,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class RTC_OBJC_TYPE(RTCRtpCapabilities);
 @class RTC_OBJC_TYPE(RTCAudioSource);
 @class RTC_OBJC_TYPE(RTCAudioTrack);
 @class RTC_OBJC_TYPE(RTCConfiguration);
@@ -23,8 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
 @class RTC_OBJC_TYPE(RTCVideoSource);
 @class RTC_OBJC_TYPE(RTCVideoTrack);
 @class RTC_OBJC_TYPE(RTCPeerConnectionFactoryOptions);
-@class RTC_OBJC_TYPE(RTCRtpCapabilities);
-typedef NS_ENUM(NSInteger, RTCRtpMediaType);
 @protocol RTC_OBJC_TYPE
 (RTCPeerConnectionDelegate);
 @protocol RTC_OBJC_TYPE
@@ -52,6 +51,18 @@ RTC_OBJC_EXPORT
     initWithEncoderFactory:(nullable id<RTC_OBJC_TYPE(RTCVideoEncoderFactory)>)encoderFactory
             decoderFactory:(nullable id<RTC_OBJC_TYPE(RTCVideoDecoderFactory)>)decoderFactory
                audioDevice:(nullable id<RTC_OBJC_TYPE(RTCAudioDevice)>)audioDevice;
+
+/**
+ * Valid kind values are kRTCMediaStreamTrackKindAudio and
+ * kRTCMediaStreamTrackKindVideo.
+ */
+- (RTC_OBJC_TYPE(RTCRtpCapabilities) *)rtpSenderCapabilitiesForKind:(NSString *)kind;
+
+/**
+ * Valid kind values are kRTCMediaStreamTrackKindAudio and
+ * kRTCMediaStreamTrackKindVideo.
+ */
+- (RTC_OBJC_TYPE(RTCRtpCapabilities) *)rtpReceiverCapabilitiesForKind:(NSString *)kind;
 
 /** Initialize an RTCAudioSource with constraints. */
 - (RTC_OBJC_TYPE(RTCAudioSource) *)audioSourceWithConstraints:
@@ -100,12 +111,6 @@ RTC_OBJC_EXPORT
                 certificateVerifier:
                     (id<RTC_OBJC_TYPE(RTCSSLCertificateVerifier)>)certificateVerifier
                            delegate:(nullable id<RTC_OBJC_TYPE(RTCPeerConnectionDelegate)>)delegate;
-
-/** Returns the capabilities of an RTP sender for a specific mediaType. */
-- (RTC_OBJC_TYPE(RTCRtpCapabilities) *)rtpSenderCapabilitiesFor:(RTCRtpMediaType)mediaType;
-
-/** Returns the capabilities of an RTP receiver for a specific mediaType. */
-- (RTC_OBJC_TYPE(RTCRtpCapabilities) *)rtpReceiverCapabilitiesFor:(RTCRtpMediaType)mediaType;
 
 /** Set the options to be used for subsequently created RTCPeerConnections */
 - (void)setOptions:(nonnull RTC_OBJC_TYPE(RTCPeerConnectionFactoryOptions) *)options;

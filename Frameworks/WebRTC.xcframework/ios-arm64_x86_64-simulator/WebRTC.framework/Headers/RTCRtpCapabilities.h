@@ -1,5 +1,5 @@
 /*
- *  Copyright 2023 The WebRTC project authors. All Rights Reserved.
+ *  Copyright 2024 The WebRTC project authors. All Rights Reserved.
  *
  *  Use of this source code is governed by a BSD-style license
  *  that can be found in the LICENSE file in the root of the source
@@ -15,13 +15,16 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class RTC_OBJC_TYPE(RTCRtpCodecCapability);
+@class RTC_OBJC_TYPE(RTCRtpHeaderExtensionCapability);
 
 RTC_OBJC_EXPORT
 @interface RTC_OBJC_TYPE (RTCRtpCapabilities) : NSObject
 
-- (instancetype)init NS_UNAVAILABLE;
+@property(nonatomic, copy) NSArray<RTC_OBJC_TYPE(RTCRtpCodecCapability) *> *codecs;
+@property(nonatomic, copy)
+    NSArray<RTC_OBJC_TYPE(RTCRtpHeaderExtensionCapability) *> *headerExtensions;
 
-@property(nonatomic, readonly) NSArray<RTC_OBJC_TYPE(RTCRtpCodecCapability) *> *codecs;
+- (instancetype)init;
 
 @end
 
