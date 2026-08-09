@@ -18,7 +18,7 @@ import PackageDescription
 
 // Keep in sync with MeetHourSDK.podspec. Also the Git tag that carries the
 // Release assets referenced below.
-let sdkVersion = "5.0.16"
+let sdkVersion = "5.0.17"
 
 let downloadBase =
     "https://github.com/v-empower/meethour-ios-sdk-releases/releases/download/\(sdkVersion)"
@@ -99,7 +99,6 @@ let package = Package(
             dependencies: [
                 "MeetHourSDK",
                 "WebRTC",
-                "hermesvm",
                 .product(name: "GiphyUISDK", package: "giphy-ios-sdk"),
             ],
             path: "Sources/MeetHourSDKReactNativeHost"
