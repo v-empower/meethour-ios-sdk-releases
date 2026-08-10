@@ -10,7 +10,7 @@
 #
 # Usage:
 #   ./scripts/make-spm-release.sh            # version from MeetHourSDK.podspec
-#   ./scripts/make-spm-release.sh 5.0.18     # explicit version
+#   ./scripts/make-spm-release.sh 5.0.19     # explicit version
 #
 set -e -u
 
