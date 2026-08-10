@@ -1,0 +1,6 @@
+framework module MeetHourSDKModules {
+  umbrella header "MeetHourSDKModules.h"
+  export *
+
+  module * { export * }
+}

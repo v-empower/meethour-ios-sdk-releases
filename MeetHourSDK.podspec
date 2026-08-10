@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MeetHourSDK'
-  s.version          = '5.0.17'
+  s.version          = '5.0.18'
   s.summary          = 'Meet Hour iOS SDK'
   s.description      = 'Meet Hour is HD Quality video conference solution with End to End Encrypted and many other features such as lobby mode, Donor box & Click&Pledge Connect for fundraising, Video call recording, Youtube Live Stream etc. For more details visit www.meethour.io.'
   s.homepage         = 'https://github.com/v-empower/meethour-ios-sdk-releases'
@@ -13,12 +13,13 @@ Pod::Spec.new do |s|
 
   s.frameworks = [ 'JavaScriptCore', 'AVFoundation', 'UIKit', 'Foundation']
   s.default_subspecs = 'Native'
+
   s.subspec 'Native' do |ss|
-    ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework', 'Frameworks/React.xcframework', 'Frameworks/ReactNativeDependencies.xcframework'
+    ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/MeetHourSDKModules.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework', 'Frameworks/React.xcframework', 'Frameworks/ReactNativeDependencies.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end
 
-  s.subspec 'React' do |ss|
+  s.subspec 'ReactNative' do |ss|
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end

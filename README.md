@@ -18,8 +18,8 @@ with the SDK.
 ## Using the SDK via Swift Package Manager (SPM)
 
 Consumers then use File → Add Package Dependencies with https://github.com/v-empower/meethour-ios-sdk-releases, Pick 
-1. MeetHourSDK (For ObjC/Swift/Flutter projects)
-2. MeetHourSDK-ReactNativeHost.(For React Natuve project.)
+1. MeetHourSDK-Native (For ObjC/Swift/Flutter projects)
+2. MeetHourSDK-ReactNative.(For React Native project.)
 
 ## Using the SDK via Cocoapods
 

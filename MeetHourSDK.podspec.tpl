@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.default_subspecs = 'Native'
 
   s.subspec 'Native' do |ss|
-    ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework', 'Frameworks/React.xcframework', 'Frameworks/ReactNativeDependencies.xcframework'
+    ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/MeetHourSDKModules.xcframework', 'Frameworks/WebRTC.xcframework', 'Frameworks/hermesvm.xcframework', 'Frameworks/React.xcframework', 'Frameworks/ReactNativeDependencies.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end
 
-  s.subspec 'React' do |ss|
+  s.subspec 'ReactNative' do |ss|
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end

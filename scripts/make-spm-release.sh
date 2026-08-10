@@ -33,7 +33,18 @@ if [[ -z "${VERSION}" ]]; then
     exit 1
 fi
 
-FRAMEWORKS=(MeetHourSDK WebRTC hermesvm React ReactNativeDependencies)
+# <artifact name>:<path under Frameworks/>. Every wrapper name now matches its
+# path, but the mapping is kept so a future artifact can be zipped under a name
+# that differs from its directory - SPM insists the .xcframework inside a binary
+# target's zip be named after the target.
+FRAMEWORKS=(
+    "MeetHourSDK:MeetHourSDK.xcframework"
+    "MeetHourSDKModules:MeetHourSDKModules.xcframework"
+    "WebRTC:WebRTC.xcframework"
+    "hermesvm:hermesvm.xcframework"
+    "React:React.xcframework"
+    "ReactNativeDependencies:ReactNativeDependencies.xcframework"
+)
 
 echo "Packaging Meet Hour SDK ${VERSION} for Swift Package Manager"
 
@@ -43,18 +54,36 @@ mkdir -p "${OUT_DIR}"
 # Zip each xcframework and record its checksum. `swift package compute-checksum`
 # is the only checksum SPM accepts -- a plain shasum will not match.
 declare -a CHECKSUM_LINES=()
-for name in "${FRAMEWORKS[@]}"; do
-    src="Frameworks/${name}.xcframework"
+for entry in "${FRAMEWORKS[@]}"; do
+    name="${entry%%:*}"
+    src="Frameworks/${entry#*:}"
     if [[ ! -d "${src}" ]]; then
         echo "ERROR: ${src} not found. Run ios/scripts/release-sdk.sh first." >&2
         exit 1
     fi
 
     zip_path="${OUT_DIR}/${name}.xcframework.zip"
-    echo "  zipping ${name}.xcframework"
+    echo "  zipping ${src} as ${name}.xcframework"
+
+    # zip names entries after the directory on disk, so anything whose wrapper
+    # name or location does not already match gets staged first. -c clones on
+    # APFS, which makes this near-free for a ~1 GB framework.
+    stage_dir=""
+    if [[ "${src}" != "Frameworks/${name}.xcframework" ]]; then
+        stage_dir=$(mktemp -d)
+        cp -Rc "${src}" "${stage_dir}/${name}.xcframework" 2>/dev/null \
+            || cp -R "${src}" "${stage_dir}/${name}.xcframework"
+        zip_root="${stage_dir}"
+    else
+        zip_root="Frameworks"
+    fi
+
     # -y keeps symlinks as symlinks: framework bundles rely on them, and
     # following them corrupts the copy SPM extracts.
-    (cd Frameworks && zip -q -r -y "${zip_path}" "${name}.xcframework")
+    (cd "${zip_root}" && zip -q -r -y "${zip_path}" "${name}.xcframework")
+    if [[ -n "${stage_dir}" ]]; then
+        rm -rf "${stage_dir}"
+    fi
 
     checksum=$(swift package compute-checksum "${zip_path}")
 
@@ -82,8 +111,8 @@ done
 
 # Keep the version string the shim targets report in step with the manifest.
 /usr/bin/sed -i '' -e "s/public static let version = \".*\"/public static let version = \"${VERSION}\"/" \
-    Sources/MeetHourSDKNative/MeetHourSDKNative.swift \
-    Sources/MeetHourSDKReactNativeHost/MeetHourSDKReactNativeHost.swift
+    Sources/MeetHourSDK-Native/MeetHourSDK-Native.swift \
+    Sources/MeetHourSDK-ReactNative/MeetHourSDK-ReactNative.swift
 
 # A manifest that does not parse is worse than no manifest: fail the packaging
 # run rather than tagging a release nobody can resolve.
