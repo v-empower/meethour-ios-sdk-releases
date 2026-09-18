@@ -18,7 +18,7 @@ import PackageDescription
 
 // Keep in sync with MeetHourSDK.podspec. Also the Git tag that carries the
 // Release assets referenced below.
-let sdkVersion = "5.0.22"
+let sdkVersion = "5.0.23"
 
 let downloadBase =
     "https://github.com/v-empower/meethour-ios-sdk-releases/releases/download/\(sdkVersion)"
@@ -26,12 +26,12 @@ let downloadBase =
 // Replaced by scripts/make-spm-release.sh. Checksums are only verified when SPM
 // downloads an artifact, so placeholders still parse and dump cleanly.
 let checksums: [String: String] = [
-    "MeetHourSDK": "2f89bed8cfb2d930fe134da1d3cfd1a2bef9e430eba4d83f1799860de7caeb79",
-    "MeetHourSDKModules": "642f90c8d0408e49f1ace966dd5072ba37a7c40115f03d09f4f401cc3c5536f3",
-    "WebRTC": "e2f6a3663133e47b36e1184f7d3ee66f7327d47be855ddae049eeb944393d2c1",
-    "hermesvm": "dfc52dfa499991b0cc57b825c76c95e9b81fa1ce06ea0d0d5b650d68b1e20ddb",
-    "React": "cd313bd62c81d3a122bfa4154bad17f8ceb8d301c76af88ecc69e1f529ab890a",
-    "ReactNativeDependencies": "2ace9f071f7d972b5a9609dae10644ba3470db740fb04a9b2b1d92f0c35dfd34",
+    "MeetHourSDK": "3ae221653252c20e46e6724eec62fd1382d127b6f27a9f47c1b921d39b1dd7db",
+    "MeetHourSDKModules": "1580ba3e1f905dd52e88a1533c3d0916fa41fc1faf25c852d4bf125350a5bec7",
+    "WebRTC": "eb2b96b2ebc99c0ddfaa39029576b3a5686e9f445374127fce6ae5c264071487",
+    "hermesvm": "34c4020e2ca4fe1eafb780be413126efba67ae6bd507d9ccb6b55c1fd3b579ff",
+    "React": "b601b83398331876a9d05482a2b61b2efc34791ca1e70d4924dec7f8fa57e24d",
+    "ReactNativeDependencies": "4de4352596b883f3c43fb7f355da662fcbf25655890682f0ebccc32b8df02493",
 ]
 
 func remoteFramework(_ name: String) -> Target {

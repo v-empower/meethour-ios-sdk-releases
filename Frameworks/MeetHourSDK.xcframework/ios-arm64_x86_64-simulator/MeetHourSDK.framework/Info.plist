@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>25F84</string>
+	<string>25G83</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.0.22</string>
+	<string>5.0.23</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneSimulator</string>
