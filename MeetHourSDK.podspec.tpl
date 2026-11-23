@@ -23,4 +23,20 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks = 'Frameworks/MeetHourSDK.xcframework', 'Frameworks/WebRTC.xcframework'
     ss.dependency 'Giphy', '2.2.12'
   end
+
+  # iOS screen sharing: the whole Broadcast Upload Extension. Add it to the
+  # extension target only (not the app):
+  #
+  #   target 'MyBroadcastExtension' do
+  #     pod 'MeetHourSDK/BroadcastExtension', 'VERSION'
+  #   end
+  #
+  # No code is needed in the extension. In its Info.plist set
+  # NSExtension > NSExtensionPrincipalClass = MHBroadcastSampleHandler and
+  # RTCAppGroupIdentifier = the app's app group.
+  s.subspec 'BroadcastExtension' do |ss|
+    ss.source_files = 'BroadcastExtension/**/*.{h,m}'
+    ss.public_header_files = 'BroadcastExtension/include/*.h'
+    ss.frameworks = 'ReplayKit', 'CoreMedia', 'AudioToolbox'
+  end
 end

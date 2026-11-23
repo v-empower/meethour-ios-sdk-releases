@@ -59,7 +59,7 @@ For an Objective-C, Swift or Flutter app:
 platform :ios, '15.1'
 
 target 'MeetHourSDKTest' do
-    pod 'MeetHourSDK', '~> 5.0.20'
+    pod 'MeetHourSDK', '~> 5.0.27'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
@@ -113,6 +113,38 @@ you may want to set `UIViewControllerBasedStatusBarAppearance` to `NO` in your
 ```
 pod install
 ```
+
+## Screen sharing on iOS
+
+Apple only allows an app to share its screen through a *Broadcast Upload
+Extension* that lives inside the app. The SDK ships that extension's code, so
+you don't write any:
+
+1. In Xcode, add a target of type **Broadcast Upload Extension** to your app
+   (File > New > Target). Delete the `SampleHandler` source file Xcode creates.
+2. Add the SDK's extension code to **that extension target only**:
+   - CocoaPods:
+     ```ruby
+     target 'MyBroadcastExtension' do
+       pod 'MeetHourSDK/BroadcastExtension'
+     end
+     ```
+   - Swift Package Manager: add the `MeetHourBroadcastExtension` product to the
+     extension target.
+3. Create an **App Group** and enable it for both the app and the extension.
+4. In the **extension's** `Info.plist`:
+   - set `NSExtension` > `NSExtensionPrincipalClass` to `MHBroadcastSampleHandler`
+   - add `RTCAppGroupIdentifier` = your app group, e.g. `group.com.example.myapp`
+5. In the **app's** `Info.plist`:
+   - add `RTCAppGroupIdentifier` = the same app group
+   - add `RTCScreenSharingExtension` = the extension's bundle identifier
+
+That's all. Users can then share their screen and, when they tick
+**Share your device's audio**, the sound other apps are playing (for example a
+YouTube video). The audio option only appears for apps whose extension uses
+`MHBroadcastSampleHandler`; apps with an older, self-written extension keep
+sharing the screen as before, without it. New screen-sharing features arrive with
+SDK updates; the extension never needs changing again.
 
 ## API
 

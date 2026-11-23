@@ -65,6 +65,17 @@ let package = Package(
             name: "MeetHourSDK-ReactNative",
             targets: ["MeetHourSDK-ReactNative"]
         ),
+        // iOS screen sharing: the whole Broadcast Upload Extension. Link it to
+        // the extension target only and set, in that extension's Info.plist,
+        // NSExtensionPrincipalClass = MHBroadcastSampleHandler and
+        // RTCAppGroupIdentifier = the app's app group. No code is needed.
+        // Dynamic, so the principal class is always loaded (a static library's
+        // classes are dropped by the linker when nothing references them).
+        .library(
+            name: "MeetHourBroadcastExtension",
+            type: .dynamic,
+            targets: ["MeetHourBroadcastExtension"]
+        ),
     ],
     dependencies: [
         // Giphy has supported SPM since 2.1.3; it vends a single "GiphyUISDK"
@@ -108,6 +119,16 @@ let package = Package(
                 .product(name: "GiphyUISDK", package: "giphy-ios-sdk"),
             ],
             path: "Sources/MeetHourSDK-ReactNative"
+        ),
+        .target(
+            name: "MeetHourBroadcastExtension",
+            path: "BroadcastExtension",
+            publicHeadersPath: "include",
+            linkerSettings: [
+                .linkedFramework("ReplayKit"),
+                .linkedFramework("CoreMedia"),
+                .linkedFramework("AudioToolbox"),
+            ]
         ),
     ]
 )
