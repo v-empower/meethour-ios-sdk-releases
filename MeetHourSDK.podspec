@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Meet Hour, LLC'
   s.source           = { :git => 'https://github.com/v-empower/meethour-ios-sdk-releases.git', :tag => s.version }
 
-  s.platform         = :ios, '13.1'
+  s.platform         = :ios, '15.1'
   s.swift_version    = '5'
 
   s.frameworks = [ 'JavaScriptCore', 'AVFoundation', 'UIKit', 'Foundation']

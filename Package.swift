@@ -45,8 +45,7 @@ func remoteFramework(_ name: String) -> Target {
 let package = Package(
     name: "MeetHourSDK",
     // MeetHourSDK.framework is built with a minimum deployment target of iOS
-    // 15.1 (React.framework: 15.0). The CocoaPods spec still advertises 13.1,
-    // which is stale — anything below 15 will fail to link or launch.
+    // 15.1 (React.framework: 15.0), the same as the CocoaPods spec.
     platforms: [
         .iOS(.v15)
     ],
