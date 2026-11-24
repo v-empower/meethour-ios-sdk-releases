@@ -59,7 +59,7 @@ For an Objective-C, Swift or Flutter app:
 platform :ios, '15.1'
 
 target 'MeetHourSDKTest' do
-    pod 'MeetHourSDK', '~> 5.0.30'
+    pod 'MeetHourSDK', '~> 5.0.31'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
@@ -76,7 +76,7 @@ For a React Native app, ask for the `ReactNative` subspec explicitly — plain
 above):
 
 ```ruby
-pod 'MeetHourSDK/ReactNative', '~> 5.0.30'
+pod 'MeetHourSDK/ReactNative', '~> 5.0.31'
 ```
 
 Most React Native apps get this transitively instead, by depending on
