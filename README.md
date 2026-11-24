@@ -89,8 +89,7 @@ render as `<UnimplementedView>`.
 Replace `MeetHourSDKTest` with your project and target names.
 
 `MeetHourSDK.framework` is built with a deployment target of iOS 15.1
-(`React.framework` needs 15.0). The podspec still advertises 13.1 for historical
-reasons, but anything below 15 will fail to link or launch.
+(`React.framework` needs 15.0), so your app needs iOS 15.1 or later.
 
 Bitcode is not supported, so turn it off for your project.
 
