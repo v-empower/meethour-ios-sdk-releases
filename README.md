@@ -76,7 +76,7 @@ For a React Native app, ask for the `ReactNative` subspec explicitly — plain
 above):
 
 ```ruby
-pod 'MeetHourSDK/ReactNative', '~> 5.0.20'
+pod 'MeetHourSDK/ReactNative', '~> 5.0.27'
 ```
 
 Most React Native apps get this transitively instead, by depending on
